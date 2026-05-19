@@ -16,7 +16,7 @@
           <small>Massachusetts HVAC</small>
         </span>
       </a>
-      <nav class="nav" aria-label="Primary navigation">
+      <nav class="nav" id="primaryNav" aria-label="Primary navigation">
         <a href="#services">Services</a>
         <a href="#advisor">AI Advisor</a>
         <a href="#heat-pumps">Heat Pumps</a>
@@ -26,9 +26,16 @@
         <a href="#office">Office</a>
         <a href="blog.html">Blog</a>
         <a href="#maintenance">Maintenance</a>
+        <div class="nav-mobile-cta">
+          <a class="phone-link" href="tel:+17813811212">📞 (781) 381-1212</a>
+          <a class="book-link" href="#book">Book Service</a>
+        </div>
       </nav>
       <a class="header-phone" href="tel:+17813811212">(781) 381-1212</a>
       <a class="button primary small" href="#book">Book Service</a>
+      <button class="hamburger" type="button" aria-label="Toggle menu" aria-controls="primaryNav" aria-expanded="false" onclick="var n=document.getElementById('primaryNav'),o=this.classList.toggle('open');n.classList.toggle('open',o);this.setAttribute('aria-expanded',o)">
+        <span></span><span></span><span></span>
+      </button>
     </header>
 
     <main id="top">
