@@ -332,6 +332,14 @@ img {
   font-weight: 900;
 }
 
+.flag-icon {
+  display: block;
+  width: 24px;
+  height: 17px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(11, 31, 51, 0.16);
+}
+
 .language-toggle button.is-active {
   background: var(--paper);
   box-shadow: 0 8px 18px rgba(11, 31, 51, 0.12);
