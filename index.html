@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BayState Climate Co. | Massachusetts HVAC, Heat Pumps & Emergency Repair</title>
     <meta name="description" content="Premium residential HVAC service in Massachusetts. Heat pumps, mini-splits, AC repair, heating repair, maintenance plans, emergency HVAC, and Mass Save rebate guidance.">
+    <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="urgency-bar">
+      <strong data-i18n="urgencyTitle">No Heat or AC?</strong>
+      <span data-i18n="urgencyText">Same-day repair windows may be available today.</span>
+      <a href="tel:+17813811212" data-i18n="urgencyCall">Call (781) 381-1212</a>
+    </div>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="BayState Climate Co. home">
         <span class="brand-mark">B</span>
@@ -17,22 +23,17 @@
         </span>
       </a>
       <nav class="nav" id="primaryNav" aria-label="Primary navigation">
-        <a href="#services">Services</a>
-        <a href="#advisor">AI Advisor</a>
-        <a href="#heat-pumps">Heat Pumps</a>
-        <a href="#systems">Systems</a>
-        <a href="#emergency">Emergency</a>
-        <a href="#rebates">Rebates</a>
-        <a href="#office">Office</a>
-        <a href="blog.html">Blog</a>
-        <a href="#maintenance">Maintenance</a>
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#rebates" data-i18n="navRebates">Rebates</a>
+        <a href="blog.html" data-i18n="navBlog">Blog</a>
+        <a href="#book" data-i18n="navContact">Contact</a>
         <div class="nav-mobile-cta">
-          <a class="phone-link" href="tel:+17813811212">📞 (781) 381-1212</a>
-          <a class="book-link" href="#book">Book Service</a>
+          <a class="phone-link" href="tel:+17813811212">(781) 381-1212</a>
+          <a class="book-link" href="#book" data-i18n="bookService">Book Service</a>
         </div>
       </nav>
       <a class="header-phone" href="tel:+17813811212">(781) 381-1212</a>
-      <a class="button primary small" href="#book">Book Service</a>
+      <a class="button primary small" href="#book" data-i18n="bookService">Book Service</a>
       <button class="hamburger" type="button" aria-label="Toggle menu" aria-controls="primaryNav" aria-expanded="false" onclick="var n=document.getElementById('primaryNav'),o=this.classList.toggle('open');n.classList.toggle('open',o);this.setAttribute('aria-expanded',o)">
         <span></span><span></span><span></span>
       </button>
@@ -41,45 +42,63 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <h1>Cleaner comfort for Massachusetts homes.</h1>
-          <p>Residential HVAC service for heat pumps, mini-splits, AC repair, heating repair, emergency calls, maintenance plans, and Mass Save rebate guidance.</p>
+          <h1 data-i18n="heroTitle">Residential HVAC & Heat Pump Installation in Massachusetts</h1>
+          <p data-i18n="heroText">Cleaner comfort for Massachusetts homes. Heat pumps, mini-splits, AC repair, heating repair, emergency calls, maintenance plans, and Mass Save rebate guidance.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#advisor">Try ComfortFit AI</a>
-            <a class="button secondary" href="#heat-pumps">Get Heat Pump Estimate</a>
+            <button class="button primary" type="button" data-open-advisor data-i18n="freeDirection">Get My Free HVAC Direction</button>
+            <a class="button secondary" href="#heat-pumps" data-i18n="heatPumpEstimate">Get Heat Pump Estimate</a>
           </div>
-          <div class="trust-row" aria-label="Trust points">
-            <span>Same-day repair windows</span>
-            <span>EPA 608 refrigerant handling</span>
-            <span>Written estimates</span>
-            <span>Mass Save guidance</span>
+          <div class="trust-badges" aria-label="Trust points">
+            <span data-i18n="trustEpa">EPA 608 Ready</span>
+            <span data-i18n="trustLicensed">Licensed & Insured Verification</span>
+            <span data-i18n="trustEstimates">Written Estimates</span>
+            <span data-i18n="trustMassSave">Mass Save Guidance</span>
           </div>
         </div>
         <figure class="hero-media">
-          <img src="assets/heat-pump-hero.png" alt="HVAC technician beside a residential heat pump at a clean Massachusetts home">
+          <picture>
+            <source srcset="assets/heat-pump-hero.webp" type="image/webp">
+            <img src="assets/heat-pump-hero.png" alt="HVAC technician beside a residential heat pump at a clean Massachusetts home">
+          </picture>
         </figure>
       </section>
 
       <section class="emergency-strip" id="emergency">
         <div>
-          <h2>No heat, no AC, or an urgent system issue?</h2>
-          <p>Tell us what changed and whether the system is still running. We will triage the problem and offer the earliest available repair window.</p>
+          <h2 data-i18n="emergencyTitle">No heat, no AC, or an urgent system issue?</h2>
+          <p data-i18n="emergencyText">Tell us what changed and whether the system is still running. We will triage the problem and offer the earliest available repair window.</p>
         </div>
-        <a class="button emergency" href="#book">Request Emergency Help</a>
+        <a class="button emergency" href="#book" data-i18n="emergencyCta">Request Emergency Help</a>
       </section>
 
       <section class="advisor-section" id="advisor">
         <div class="advisor-intro">
           <div>
-            <h2>Find the right HVAC path before anyone steps inside your home.</h2>
-            <p>ComfortFit AI reviews your home details, comfort goals, current equipment, and optional blueprint or photo uploads to create a smart pre-design, rebate direction, and budget range.</p>
+            <h2 data-i18n="advisorTitle">Know your likely HVAC path before the sales visit.</h2>
+            <p data-i18n="advisorText">ComfortFit AI gives homeowners a clean pre-check: likely system direction, rough size range, rebate path, and budget tier.</p>
           </div>
-          <p class="advisor-disclaimer">Final equipment sizing is verified by a qualified HVAC professional using Manual J, field measurements, and permit/licensing requirements before installation.</p>
+          <div class="advisor-card">
+            <span data-i18n="advisorBadge">Free pre-design</span>
+            <strong data-i18n="advisorCardTitle">One question at a time. No long form on the page.</strong>
+            <button class="button primary full" type="button" data-open-advisor data-i18n="freeDirection">Get My Free HVAC Direction</button>
+            <p data-i18n="advisorDisclaimer">Final equipment sizing is verified by a qualified HVAC professional using Manual J, field measurements, and permit/licensing requirements before installation.</p>
+          </div>
         </div>
+      </section>
 
+      <div class="advisor-modal" data-advisor-modal aria-hidden="true">
+        <div class="advisor-modal-backdrop" data-close-advisor></div>
         <div class="advisor-app" data-advisor>
+          <div class="advisor-modal-head">
+            <div>
+              <span>ComfortFit AI</span>
+              <strong data-i18n="modalTitle">Get your HVAC direction</strong>
+            </div>
+            <button type="button" data-close-advisor aria-label="Close ComfortFit AI" data-i18n="close">Close</button>
+          </div>
           <form class="advisor-form">
-            <fieldset>
-              <legend>1. What are you trying to solve?</legend>
+            <fieldset class="advisor-step is-active" data-step="0">
+              <legend data-i18n="stepGoal">What are you trying to solve?</legend>
               <div class="choice-grid">
                 <label><input type="radio" name="goal" value="Repair existing system" checked> Repair existing system</label>
                 <label><input type="radio" name="goal" value="Replace AC/furnace"> Replace AC/furnace</label>
@@ -90,8 +109,8 @@
               </div>
             </fieldset>
 
-            <fieldset>
-              <legend>2. Home details</legend>
+            <fieldset class="advisor-step" data-step="1">
+              <legend data-i18n="stepHome">Where is the home and how large is it?</legend>
               <div class="advisor-fields">
                 <label>
                   ZIP code
@@ -113,6 +132,12 @@
                     <option>3+</option>
                   </select>
                 </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="advisor-step" data-step="2">
+              <legend data-i18n="stepSystem">What system do you have now?</legend>
+              <div class="advisor-fields">
                 <label>
                   Basement / attic
                   <select name="envelope">
@@ -153,6 +178,12 @@
                     <option>Not sure</option>
                   </select>
                 </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="advisor-step" data-step="3">
+              <legend data-i18n="stepComfort">What comfort problems should we know about?</legend>
+              <div class="advisor-fields">
                 <label>
                   Insulation
                   <select name="insulation">
@@ -192,7 +223,15 @@
               </div>
             </fieldset>
 
-            <button class="button primary full" type="submit">Get My HVAC Direction</button>
+            <div class="advisor-progress">
+              <span data-step-label>Step 1 of 4</span>
+              <div><i data-step-meter></i></div>
+            </div>
+            <div class="advisor-controls">
+              <button class="button secondary" type="button" data-prev-step data-i18n="back">Back</button>
+              <button class="button primary" type="button" data-next-step data-i18n="next">Next</button>
+              <button class="button primary" type="submit" data-submit-advisor data-i18n="getDirection">Get My HVAC Direction</button>
+            </div>
           </form>
 
           <aside class="advisor-result" aria-live="polite">
@@ -219,10 +258,10 @@
             </div>
             <div class="result-notes">
               <h4>What we verify on site</h4>
-              <ul data-result-notes>
-                <li>Manual J load calculation</li>
-                <li>Electrical capacity and permit scope</li>
-                <li>Outdoor unit location and line-set route</li>
+              <ul class="verify-icons" data-result-notes>
+                <li><span aria-hidden="true">MJ</span>Manual J load calculation</li>
+                <li><span aria-hidden="true">V</span>Electrical capacity and permit scope</li>
+                <li><span aria-hidden="true">T</span>Outdoor unit location and line-set route</li>
               </ul>
             </div>
             <label class="full">
@@ -232,35 +271,41 @@
             <button class="button secondary full" type="button" data-send-summary>Attach Summary To Booking Form</button>
           </aside>
         </div>
-      </section>
+      </div>
 
       <section class="section" id="services">
         <div class="section-heading">
-          <h2>Residential HVAC service built around Massachusetts homes.</h2>
-          <p>Repair-first diagnostics, clean installation standards, and heat pump planning that accounts for old homes, tight lots, cold winters, and rebate paperwork.</p>
+          <h2>Emergency AC Repair in Fitchburg, MA and Central Massachusetts</h2>
+          <p>Repair-first diagnostics, clean installation standards, and heat pump planning for old homes, tight lots, cold winters, and rebate paperwork.</p>
         </div>
         <div class="service-grid">
           <article>
+            <span class="service-icon" aria-hidden="true">T</span>
             <h3>Heat Pumps</h3>
             <p>Cold-climate system design, replacement planning, financing options, and rebate guidance.</p>
           </article>
           <article>
+            <span class="service-icon" aria-hidden="true">Z</span>
             <h3>Mini-Splits</h3>
             <p>Ductless comfort for bedrooms, additions, offices, basements, and older homes.</p>
           </article>
           <article>
+            <span class="service-icon" aria-hidden="true">AC</span>
             <h3>AC Repair</h3>
             <p>Diagnostics for airflow, electrical, refrigerant, thermostat, and performance issues.</p>
           </article>
           <article>
+            <span class="service-icon" aria-hidden="true">H</span>
             <h3>Heating Repair</h3>
             <p>No-heat troubleshooting and licensed trade coordination when the scope requires it.</p>
           </article>
           <article>
+            <span class="service-icon" aria-hidden="true">!</span>
             <h3>Emergency HVAC</h3>
             <p>Urgent triage for breakdowns during cold snaps, heat waves, and system failures.</p>
           </article>
           <article>
+            <span class="service-icon" aria-hidden="true">C</span>
             <h3>Maintenance Plans</h3>
             <p>Seasonal tune-ups, priority scheduling, filter reminders, and documented system checks.</p>
           </article>
@@ -279,8 +324,8 @@
           </ul>
         </div>
         <div class="info-panel" id="rebates">
-          <h3>Mass Save guidance</h3>
-          <p>We help organize eligibility questions, qualified equipment, integrated controls, financing steps, and paperwork. Final approval always comes from Mass Save program administrators.</p>
+          <h3>Maximize your Mass Save incentives.</h3>
+          <p>We help you organize qualified equipment, integrated controls, financing steps, and paperwork so you can pursue available Mass Save incentives with less confusion. Final approval always comes from Mass Save program administrators.</p>
           <a class="text-link" href="#book">Request rebate-ready estimate</a>
         </div>
       </section>
@@ -328,10 +373,10 @@
           <p>A maintenance plan for homeowners who do not want surprise failures during the first heat wave or cold snap.</p>
         </div>
         <div class="plan-row">
-          <span>Two seasonal visits</span>
-          <span>Priority scheduling</span>
-          <span>Filter reminders</span>
-          <span>Photo-documented system history</span>
+          <span><i aria-hidden="true">2x</i>Two seasonal visits</span>
+          <span><i aria-hidden="true">P</i>Priority scheduling</span>
+          <span><i aria-hidden="true">F</i>Filter reminders</span>
+          <span><i aria-hidden="true">D</i>Photo-documented history</span>
         </div>
       </section>
 
@@ -426,6 +471,7 @@
       <p><strong>BayState Climate Co.</strong> - Heat pumps, mini-splits, AC repair, heating repair, emergency HVAC, and maintenance for Massachusetts homes.</p>
       <p>Compliance note: license, insurance, registration, permit, and Mass Save language must be verified before public launch. BayState Climate Co. is not Mass Save and cannot guarantee rebate approval.</p>
     </footer>
+    <script src="site-ui.js"></script>
     <script src="script.js"></script>
     <script src="assistant-widget.js"></script>
   </body>

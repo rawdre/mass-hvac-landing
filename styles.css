@@ -12,6 +12,20 @@
   --shadow: 0 24px 70px rgba(11, 31, 51, 0.15);
 }
 
+:root[data-theme="dark"] {
+  --navy: #f5f8fb;
+  --navy-2: #d9e7f2;
+  --blue: #7fc4ee;
+  --red: #ff685b;
+  --copper: #d58a55;
+  --white: #0a1723;
+  --paper: #101f2d;
+  --text: #edf5fb;
+  --muted: #a8b8c6;
+  --border: #24384a;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -30,6 +44,43 @@ body {
     var(--white);
   line-height: 1.5;
   overflow-x: hidden;
+}
+
+:root[data-theme="dark"] body {
+  background:
+    linear-gradient(120deg, rgba(127, 196, 238, 0.07), rgba(255, 104, 91, 0.04)),
+    #07111b;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.urgency-bar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-height: 38px;
+  padding: 8px 20px;
+  color: #fff;
+  background: var(--navy);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.urgency-bar span {
+  color: #d8e2ea;
+  font-weight: 650;
+}
+
+.urgency-bar a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 body::before {
@@ -81,16 +132,81 @@ img {
 
 .site-header {
   position: sticky;
-  top: 0;
+  top: 38px;
   z-index: 10;
   display: grid;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: auto 1fr auto auto auto;
   align-items: center;
   gap: 24px;
   padding: 16px clamp(20px, 4vw, 56px);
   background: rgba(247, 250, 252, 0.94);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(18px);
+}
+
+:root[data-theme="dark"] .site-header {
+  background: rgba(10, 23, 35, 0.94);
+}
+
+:root[data-theme="dark"] .urgency-bar,
+:root[data-theme="dark"] .site-footer,
+:root[data-theme="dark"] .emergency-strip,
+:root[data-theme="dark"] .article-cta-panel {
+  color: #edf5fb;
+  background: #07111b;
+}
+
+:root[data-theme="dark"] .button.emergency,
+:root[data-theme="dark"] .nav.open .nav-mobile-cta .book-link,
+:root[data-theme="dark"] .assistant-toggle {
+  color: #07111b;
+  background: #edf5fb;
+}
+
+:root[data-theme="dark"] .button.secondary,
+:root[data-theme="dark"] .trust-badges span,
+:root[data-theme="dark"] .trust-row span,
+:root[data-theme="dark"] .plan-row span,
+:root[data-theme="dark"] .assistant-actions a,
+:root[data-theme="dark"] .assistant-actions button {
+  color: #edf5fb;
+  background: #13283a;
+  border-color: #2f475c;
+}
+
+:root[data-theme="dark"] .pricing-popup .button.secondary {
+  color: #07111b;
+  background: #edf5fb;
+}
+
+:root[data-theme="dark"] .hero,
+:root[data-theme="dark"] .blog-hero,
+:root[data-theme="dark"] .advisor-section,
+:root[data-theme="dark"] .split-section,
+:root[data-theme="dark"] .office-section,
+:root[data-theme="dark"] .blog-preview {
+  background:
+    linear-gradient(120deg, rgba(127, 196, 238, 0.05), rgba(255, 104, 91, 0.035)),
+    var(--white);
+}
+
+:root[data-theme="dark"] .service-grid article,
+:root[data-theme="dark"] .info-panel,
+:root[data-theme="dark"] .booking-form,
+:root[data-theme="dark"] .blog-preview-grid a,
+:root[data-theme="dark"] .advisor-form,
+:root[data-theme="dark"] .advisor-result,
+:root[data-theme="dark"] .advisor-card,
+:root[data-theme="dark"] .article-reader,
+:root[data-theme="dark"] .office-details p,
+:root[data-theme="dark"] .map-frame {
+  background: var(--paper);
+}
+
+:root[data-theme="dark"] input,
+:root[data-theme="dark"] select,
+:root[data-theme="dark"] textarea {
+  background: #0b1824;
 }
 
 .brand {
@@ -185,6 +301,53 @@ img {
 
 .nav-mobile-cta {
   display: none;
+}
+
+.site-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-toggle {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+.language-toggle button,
+.theme-toggle {
+  display: inline-grid;
+  min-width: 34px;
+  height: 34px;
+  place-items: center;
+  color: var(--navy);
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.language-toggle button.is-active {
+  background: var(--paper);
+  box-shadow: 0 8px 18px rgba(11, 31, 51, 0.12);
+}
+
+.theme-toggle {
+  min-width: 58px;
+  padding: 0 12px;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  font-size: 12px;
+}
+
+:root[data-theme="dark"] .theme-toggle {
+  color: #07111b;
+  background: #edf5fb;
 }
 
 .button {
@@ -398,7 +561,8 @@ h3 {
   margin: 30px 0;
 }
 
-.trust-row {
+.trust-row,
+.trust-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -406,6 +570,7 @@ h3 {
 }
 
 .trust-row span,
+.trust-badges span,
 .plan-row span {
   padding: 10px 12px;
   color: var(--navy);
@@ -414,6 +579,21 @@ h3 {
   border-radius: 8px;
   font-size: 13px;
   font-weight: 800;
+}
+
+.trust-badges span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 10px 24px rgba(11, 31, 51, 0.08);
+}
+
+.trust-badges span::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #40b879;
+  border-radius: 50%;
 }
 
 .hero-media {
@@ -438,6 +618,10 @@ h3 {
   height: min(620px, 58vw);
   min-height: 420px;
   object-fit: cover;
+}
+
+.hero-media picture {
+  display: block;
 }
 
 .emergency-strip {
@@ -517,8 +701,8 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(300px, 0.55fr);
   gap: 26px;
-  align-items: end;
-  margin-bottom: 30px;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .advisor-intro h2 {
@@ -529,7 +713,8 @@ h3 {
   max-width: 820px;
 }
 
-.advisor-disclaimer {
+.advisor-disclaimer,
+.advisor-card {
   margin: 0;
   padding: 18px;
   color: var(--navy) !important;
@@ -539,6 +724,108 @@ h3 {
   border-radius: 8px;
   font-size: 15px !important;
   font-weight: 750;
+}
+
+.advisor-card {
+  display: grid;
+  gap: 14px;
+  background: #fff;
+  border-left-color: var(--red);
+  box-shadow: 0 18px 50px rgba(11, 31, 51, 0.10);
+}
+
+.advisor-card span {
+  width: fit-content;
+  padding: 7px 10px;
+  color: var(--red);
+  background: #fff3f1;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.advisor-card strong {
+  color: var(--navy);
+  font-size: 22px;
+  line-height: 1.16;
+}
+
+.advisor-card p {
+  margin: 0;
+  font-size: 14px !important;
+}
+
+.advisor-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: none;
+  padding: 28px;
+}
+
+.advisor-modal.is-open {
+  display: grid;
+  place-items: center;
+}
+
+.advisor-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 31, 51, 0.62);
+  backdrop-filter: blur(10px);
+}
+
+.advisor-modal .advisor-app {
+  width: min(1080px, 100%);
+  max-height: min(760px, calc(100vh - 56px));
+  overflow: auto;
+  padding: 18px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.30);
+}
+
+.advisor-modal .advisor-app:not(.has-result) {
+  width: min(760px, 100%);
+  grid-template-columns: 1fr;
+}
+
+.advisor-app:not(.has-result) .advisor-result {
+  display: none;
+}
+
+.advisor-modal-head {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  padding: 4px 4px 0;
+}
+
+.advisor-modal-head span {
+  display: block;
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.advisor-modal-head strong {
+  color: var(--navy);
+  font-size: 24px;
+}
+
+.advisor-modal-head button {
+  min-height: 38px;
+  padding: 0 14px;
+  color: var(--navy);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 .advisor-app {
@@ -560,6 +847,64 @@ h3 {
   display: grid;
   gap: 20px;
   padding: 24px;
+}
+
+.advisor-step {
+  display: none;
+}
+
+.advisor-step.is-active {
+  display: block;
+}
+
+.advisor-progress {
+  display: grid;
+  gap: 8px;
+}
+
+.advisor-progress span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.advisor-progress div {
+  height: 7px;
+  overflow: hidden;
+  background: var(--white);
+  border-radius: 999px;
+}
+
+.advisor-progress i {
+  display: block;
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--red), var(--blue));
+  border-radius: inherit;
+  transition: width 180ms ease;
+}
+
+.advisor-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.advisor-controls button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.advisor-controls [data-submit-advisor] {
+  display: none;
+}
+
+.advisor-controls.is-last [data-next-step] {
+  display: none;
+}
+
+.advisor-controls.is-last [data-submit-advisor] {
+  display: inline-flex;
 }
 
 fieldset {
@@ -685,6 +1030,34 @@ legend {
   font-size: 14px;
 }
 
+.verify-icons {
+  padding-left: 0 !important;
+  list-style: none;
+}
+
+.verify-icons li {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.verify-icons span,
+.service-icon,
+.plan-row i {
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  color: var(--navy);
+  background: #e9f4fb;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+}
+
 .advisor-result textarea {
   min-height: 150px;
   font-size: 13px;
@@ -707,7 +1080,13 @@ legend {
 }
 
 .service-grid article {
-  padding: 24px;
+  display: grid;
+  gap: 12px;
+  padding: 26px;
+}
+
+.service-grid h3 {
+  margin: 0;
 }
 
 .service-grid p {
@@ -886,6 +1265,13 @@ legend {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
+}
+
+.plan-row span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 58px;
 }
 
 .booking {
@@ -1103,7 +1489,8 @@ legend {
   gap: 8px;
 }
 
-.assistant-actions a {
+.assistant-actions a,
+.assistant-actions button {
   display: flex;
   min-height: 42px;
   align-items: center;
@@ -1116,6 +1503,89 @@ legend {
   font-size: 13px;
   font-weight: 900;
   text-align: center;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.assistant-panel small {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.pricing-popup {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 45;
+  display: grid;
+  gap: 12px;
+  width: min(370px, calc(100vw - 36px));
+  padding: 18px;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid var(--border);
+  border-top: 5px solid var(--red);
+  border-radius: 10px;
+  box-shadow: 0 28px 70px rgba(11, 31, 51, 0.22);
+  transform: translateY(18px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+:root[data-theme="dark"] .pricing-popup,
+:root[data-theme="dark"] .assistant-panel,
+:root[data-theme="dark"] .advisor-modal .advisor-app {
+  background: rgba(16, 31, 45, 0.98);
+}
+
+.pricing-popup.is-visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.pricing-popup span {
+  width: fit-content;
+  padding: 6px 9px;
+  color: var(--red);
+  background: #fff3f1;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.pricing-popup strong {
+  color: var(--navy);
+  font-size: 23px;
+  line-height: 1.12;
+}
+
+.pricing-popup p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.pricing-popup div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pricing-close {
+  justify-self: end;
+  min-height: 30px;
+  padding: 0 10px;
+  color: var(--muted);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .fine-print {
@@ -1259,7 +1729,7 @@ textarea {
 
 @media (max-width: 980px) {
   .site-header {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr auto auto;
     position: sticky;
   }
 
@@ -1289,6 +1759,10 @@ textarea {
     padding: 8px 16px 16px;
     z-index: 9;
     font-size: 16px;
+  }
+
+  :root[data-theme="dark"] .nav.open {
+    background: rgba(16, 31, 45, 0.98);
   }
 
   .nav.open a {
@@ -1324,6 +1798,25 @@ textarea {
   .nav.open .nav-mobile-cta .book-link {
     background: var(--navy);
     color: #fff;
+  }
+
+  .site-controls {
+    margin-left: auto;
+  }
+
+  .language-toggle {
+    gap: 2px;
+  }
+
+  .language-toggle button {
+    min-width: 30px;
+    height: 30px;
+  }
+
+  .theme-toggle {
+    min-width: 48px;
+    height: 32px;
+    padding: 0 8px;
   }
 
   .hero,
@@ -1362,6 +1855,17 @@ textarea {
 }
 
 @media (max-width: 640px) {
+  .urgency-bar {
+    justify-content: space-between;
+    gap: 8px;
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .urgency-bar span {
+    max-width: 150px;
+  }
+
   .site-header {
     padding: 12px 16px;
   }
@@ -1491,7 +1995,7 @@ textarea {
   .site-assistant {
     left: 12px;
     bottom: 12px;
-    width: min(310px, calc(100vw - 24px));
+    width: min(330px, calc(100vw - 24px));
   }
 
   .assistant-toggle {
@@ -1506,6 +2010,25 @@ textarea {
 
   .assistant-actions {
     grid-template-columns: 1fr;
+  }
+
+  .pricing-popup {
+    right: 12px;
+    bottom: 70px;
+    width: min(330px, calc(100vw - 24px));
+  }
+
+  .advisor-modal {
+    padding: 18px;
+  }
+
+  .advisor-modal .advisor-app {
+    max-height: calc(100vh - 36px);
+    padding: 14px;
+  }
+
+  .advisor-modal-head strong {
+    font-size: 22px;
   }
 }
 

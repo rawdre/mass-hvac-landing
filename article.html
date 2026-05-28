@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HVAC Article | BayState Climate Co.</title>
     <meta name="description" content="Homeowner-friendly HVAC article from BayState Climate Co.">
+    <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="urgency-bar">
+      <strong data-i18n="urgencyTitle">No Heat or AC?</strong>
+      <span data-i18n="urgencyText">Same-day repair windows may be available today.</span>
+      <a href="tel:+17813811212" data-i18n="urgencyCall">Call (781) 381-1212</a>
+    </div>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="BayState Climate Co. home">
         <span class="brand-mark">B</span>
@@ -17,17 +23,17 @@
         </span>
       </a>
       <nav class="nav" id="primaryNav" aria-label="Primary navigation">
-        <a href="index.html#advisor">AI Advisor</a>
-        <a href="index.html#services">Services</a>
-        <a href="index.html#office">Office</a>
-        <a href="blog.html">Blog</a>
+        <a href="index.html#services" data-i18n="navServices">Services</a>
+        <a href="index.html#rebates" data-i18n="navRebates">Rebates</a>
+        <a href="blog.html" data-i18n="navBlog">Blog</a>
+        <a href="index.html#book" data-i18n="navContact">Contact</a>
         <div class="nav-mobile-cta">
-          <a class="phone-link" href="tel:+17813811212">📞 (781) 381-1212</a>
-          <a class="book-link" href="index.html#book">Book Service</a>
+          <a class="phone-link" href="tel:+17813811212">(781) 381-1212</a>
+          <a class="book-link" href="index.html#book" data-i18n="bookService">Book Service</a>
         </div>
       </nav>
       <a class="header-phone" href="tel:+17813811212">(781) 381-1212</a>
-      <a class="button primary small" href="index.html#book">Book Service</a>
+      <a class="button primary small" href="index.html#book" data-i18n="bookService">Book Service</a>
       <button class="hamburger" type="button" aria-label="Toggle menu" aria-controls="primaryNav" aria-expanded="false" onclick="var n=document.getElementById('primaryNav'),o=this.classList.toggle('open');n.classList.toggle('open',o);this.setAttribute('aria-expanded',o)">
         <span></span><span></span><span></span>
       </button>
@@ -39,7 +45,7 @@
         <div class="article-cta-panel">
           <strong>Need a real system direction?</strong>
           <p>Use ComfortFit AI to turn home details, photos, or blueprints into a pre-estimate summary before the first visit.</p>
-          <a class="button primary" href="index.html#advisor">Try ComfortFit AI</a>
+          <a class="button primary" href="index.html#advisor">Get My Free HVAC Direction</a>
         </div>
       </aside>
 
@@ -53,6 +59,7 @@
     <footer class="site-footer">
       <p><strong>BayState Climate Co.</strong> - 199 Main St, Fitchburg, MA - <a href="tel:+17813811212">(781) 381-1212</a></p>
     </footer>
+    <script src="site-ui.js"></script>
     <script src="articles-data.js"></script>
     <script src="article.js"></script>
     <script src="assistant-widget.js"></script>

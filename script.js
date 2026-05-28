@@ -108,6 +108,15 @@ function buildLeadSummary(data, result) {
 
 if (advisorRoot) {
   const form = advisorRoot.querySelector(".advisor-form");
+  const modal = document.querySelector("[data-advisor-modal]");
+  const openAdvisorButtons = document.querySelectorAll("[data-open-advisor]");
+  const closeAdvisorButtons = document.querySelectorAll("[data-close-advisor]");
+  const steps = Array.from(advisorRoot.querySelectorAll(".advisor-step"));
+  const prevStep = advisorRoot.querySelector("[data-prev-step]");
+  const nextStep = advisorRoot.querySelector("[data-next-step]");
+  const controls = advisorRoot.querySelector(".advisor-controls");
+  const stepLabel = advisorRoot.querySelector("[data-step-label]");
+  const stepMeter = advisorRoot.querySelector("[data-step-meter]");
   const resultTitle = advisorRoot.querySelector("[data-result-title]");
   const resultSummary = advisorRoot.querySelector("[data-result-summary]");
   const resultSystem = advisorRoot.querySelector("[data-result-system]");
@@ -117,6 +126,46 @@ if (advisorRoot) {
   const resultNotes = advisorRoot.querySelector("[data-result-notes]");
   const leadSummary = advisorRoot.querySelector("[data-result-lead]");
   const sendSummary = advisorRoot.querySelector("[data-send-summary]");
+  let currentStep = 0;
+
+  function setModal(open) {
+    if (!modal) return;
+    modal.classList.toggle("is-open", open);
+    modal.setAttribute("aria-hidden", String(!open));
+    document.body.classList.toggle("modal-open", open);
+  }
+
+  function updateStep(index) {
+    currentStep = Math.max(0, Math.min(index, steps.length - 1));
+    steps.forEach((step, stepIndex) => {
+      step.classList.toggle("is-active", stepIndex === currentStep);
+    });
+    if (prevStep) prevStep.disabled = currentStep === 0;
+    if (controls) controls.classList.toggle("is-last", currentStep === steps.length - 1);
+    if (stepLabel) stepLabel.textContent = `Step ${currentStep + 1} of ${steps.length}`;
+    if (stepMeter) stepMeter.style.width = `${((currentStep + 1) / steps.length) * 100}%`;
+  }
+
+  openAdvisorButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      setModal(true);
+      updateStep(0);
+    });
+  });
+
+  closeAdvisorButtons.forEach((button) => {
+    button.addEventListener("click", () => setModal(false));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setModal(false);
+    }
+  });
+
+  prevStep?.addEventListener("click", () => updateStep(currentStep - 1));
+  nextStep?.addEventListener("click", () => updateStep(currentStep + 1));
+  updateStep(0);
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -146,7 +195,10 @@ if (advisorRoot) {
     resultSize.textContent = result.size;
     resultBudget.textContent = result.budget;
     resultRebate.textContent = result.rebate;
-    resultNotes.innerHTML = result.notes.map((note) => `<li>${note}</li>`).join("");
+    const noteIcons = ["MJ", "V", "T", "D", "$", "E"];
+    resultNotes.innerHTML = result.notes
+      .map((note, index) => `<li><span aria-hidden="true">${noteIcons[index] || "C"}</span>${note}</li>`)
+      .join("");
     leadSummary.value = buildLeadSummary(data, result);
     advisorRoot.classList.add("has-result");
   });
@@ -160,6 +212,7 @@ if (advisorRoot) {
     if (bookingService) {
       bookingService.value = "Heat pump estimate";
     }
+    setModal(false);
     document.querySelector("#book")?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
