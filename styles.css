@@ -2219,3 +2219,68 @@ textarea {
     margin: 0 auto;
   }
 }
+
+/* ===== WhatsApp floating button ===== */
+.wa-float {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 45;
+  display: inline-grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  color: #fff;
+  background: #25d366;
+  border-radius: 999px;
+  box-shadow: 0 16px 38px rgba(37, 211, 102, 0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wa-float svg {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+.wa-float:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 20px 46px rgba(37, 211, 102, 0.55);
+}
+
+.wa-float::after {
+  content: "WhatsApp";
+  position: absolute;
+  right: 70px;
+  white-space: nowrap;
+  padding: 7px 12px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #0b1f33;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateX(8px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.wa-float:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 600px) {
+  .wa-float {
+    width: 52px;
+    height: 52px;
+  }
+  .wa-float svg {
+    width: 28px;
+    height: 28px;
+  }
+  .wa-float::after {
+    display: none;
+  }
+}

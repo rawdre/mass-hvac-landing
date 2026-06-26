@@ -484,7 +484,25 @@ function injectPricingPopup() {
   });
 }
 
+function injectWhatsApp() {
+  if (document.querySelector(".wa-float")) return;
+  const number = "19787988007";
+  const text = encodeURIComponent("Hi Ventic HVAC! I'd like help with my heating or cooling.");
+  const a = document.createElement("a");
+  a.className = "wa-float";
+  a.href = `https://wa.me/${number}?text=${text}`;
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.setAttribute("aria-label", "Chat with Ventic HVAC on WhatsApp");
+  a.innerHTML = `
+    <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M16.04 3.2c-7.1 0-12.86 5.76-12.86 12.86 0 2.27.6 4.48 1.73 6.43L3.2 28.8l6.5-1.7a12.8 12.8 0 0 0 6.34 1.62h.01c7.1 0 12.86-5.76 12.86-12.86 0-3.44-1.34-6.67-3.77-9.1a12.78 12.78 0 0 0-9.1-3.56zm0 23.31h-.01a10.66 10.66 0 0 1-5.43-1.49l-.39-.23-3.86 1.01 1.03-3.76-.25-.4a10.64 10.64 0 0 1-1.63-5.68c0-5.9 4.8-10.69 10.7-10.69 2.86 0 5.54 1.11 7.56 3.13a10.62 10.62 0 0 1 3.13 7.57c0 5.9-4.8 10.69-10.69 10.69zm5.86-8.01c-.32-.16-1.9-.94-2.19-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.91-1.79-2.23-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.52-.54-.72-.55-.19-.01-.4-.01-.61-.01-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.66 0 1.57 1.14 3.08 1.3 3.29.16.21 2.25 3.43 5.45 4.81.76.33 1.35.52 1.81.67.76.24 1.45.21 2 .13.61-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37z"/>
+    </svg>`;
+  document.body.appendChild(a);
+}
+
 injectHeaderControls();
+injectWhatsApp();
 const savedTheme = localStorage.getItem("baystate-theme") || "light";
 applyTheme(savedTheme);
 const themeButton = document.querySelector(".theme-toggle");
