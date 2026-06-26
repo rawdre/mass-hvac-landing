@@ -195,9 +195,18 @@ if (advisorRoot) {
     resultSize.textContent = result.size;
     resultBudget.textContent = result.budget;
     resultRebate.textContent = result.rebate;
-    const noteIcons = ["MJ", "V", "T", "D", "$", "E"];
+    const svg = (paths) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${paths}</svg>`;
+    const noteIcons = [
+      svg('<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9z"/><path d="M8.5 11.5h7M8.5 15.5h5"/>'),
+      svg('<path d="M13 2L5 13.5h5l-1 8.5 9-12h-6z"/>'),
+      svg('<path d="M12 21s6.5-5 6.5-10.5a6.5 6.5 0 0 0-13 0C5.5 16 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.3"/>'),
+      svg('<path d="M3 8h11a3 3 0 1 0-3-3"/><path d="M3 12h15a3 3 0 1 1-3 3"/><path d="M3 16h8"/>'),
+      svg('<path d="M12 2.5v19"/><path d="M16 6.5C16 4.8 14.2 4 12 4S8 4.8 8 7s2 3 4 3.5 4 1 4 3.5-1.8 3-4 3-4-.8-4-2.7"/>'),
+      svg('<path d="M3 11l9-7 9 7"/><path d="M5.5 9.5V20h13V9.5"/>')
+    ];
+    const defaultIcon = svg('<path d="M5 12.5l4 4 10-11"/>');
     resultNotes.innerHTML = result.notes
-      .map((note, index) => `<li><span aria-hidden="true">${noteIcons[index] || "C"}</span>${note}</li>`)
+      .map((note, index) => `<li><span aria-hidden="true">${noteIcons[index] || defaultIcon}</span>${note}</li>`)
       .join("");
     leadSummary.value = buildLeadSummary(data, result);
     advisorRoot.classList.add("has-result");
