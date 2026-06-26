@@ -501,8 +501,20 @@ function injectWhatsApp() {
   document.body.appendChild(a);
 }
 
+function initHamburger() {
+  const btn = document.querySelector(".hamburger");
+  const nav = document.getElementById("primaryNav");
+  if (!btn || !nav) return;
+  btn.addEventListener("click", () => {
+    const open = btn.classList.toggle("open");
+    nav.classList.toggle("open", open);
+    btn.setAttribute("aria-expanded", String(open));
+  });
+}
+
 injectHeaderControls();
 injectWhatsApp();
+initHamburger();
 const savedTheme = localStorage.getItem("baystate-theme") || "light";
 applyTheme(savedTheme);
 const themeButton = document.querySelector(".theme-toggle");

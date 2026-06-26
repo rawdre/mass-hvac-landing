@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Security: CSP is the only HTTP-header-level control GitHub Pages allows (via meta).
+         frame-ancestors / X-Frame-Options / X-Content-Type-Options / Permissions-Policy
+         cannot be set on GitHub Pages and require a proxy (e.g. Cloudflare) or Vercel. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://www.google.com https://maps.google.com; form-action 'self'; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>Ventic HVAC | Massachusetts HVAC, Heat Pumps & Emergency Repair</title>
     <meta name="description" content="Residential HVAC & heat pump installation in Fitchburg, MA and Central Massachusetts. Mini-splits, AC repair, heating repair, emergency HVAC, maintenance plans, and Mass Save rebate guidance.">
     <link rel="canonical" href="https://ventichvac.com/">
@@ -103,7 +108,7 @@
       </nav>
       <a class="header-phone" href="tel:+17813811212">(781) 381-1212</a>
       <a class="button primary small" href="#book" data-i18n="bookService">Book Service</a>
-      <button class="hamburger" type="button" aria-label="Toggle menu" aria-controls="primaryNav" aria-expanded="false" onclick="var n=document.getElementById('primaryNav'),o=this.classList.toggle('open');n.classList.toggle('open',o);this.setAttribute('aria-expanded',o)">
+      <button class="hamburger" type="button" aria-label="Toggle menu" aria-controls="primaryNav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </header>

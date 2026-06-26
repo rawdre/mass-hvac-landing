@@ -1,0 +1,30 @@
+# ----- Secrets & environment (never commit these) -----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+service-account*.json
+credentials*.json
+*serviceRole*
+*service_role*
+
+# ----- Dependencies / build (in case a build step is added later) -----
+node_modules/
+dist/
+build/
+.cache/
+*.log
+
+# ----- OS / editor cruft -----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ----- Local tooling -----
+.playwright-mcp/
