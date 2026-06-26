@@ -9,6 +9,10 @@ if (reader && article) {
   document.title = `${article.metaTitle || article.title} | Ventic HVAC`;
   const meta = document.querySelector('meta[name="description"]');
   if (meta && article.metaDescription) meta.setAttribute("content", article.metaDescription);
+  const articleUrl = `https://ventichvac.com/article.html?slug=${encodeURIComponent(article.slug)}`;
+  document.getElementById("canonicalLink")?.setAttribute("href", articleUrl);
+  document.getElementById("ogUrl")?.setAttribute("content", articleUrl);
+  document.getElementById("ogTitle")?.setAttribute("content", `${article.metaTitle || article.title} | Ventic HVAC`);
   reader.innerHTML = `
     <span class="result-label">${article.category}</span>
     ${article.html}
