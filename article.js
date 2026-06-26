@@ -6,7 +6,7 @@ const article = Array.isArray(window.HVAC_ARTICLES)
 const reader = document.querySelector("[data-article-reader]");
 
 if (reader && article) {
-  document.title = `${article.metaTitle || article.title} | BayState Climate Co.`;
+  document.title = `${article.metaTitle || article.title} | Ventic HVAC`;
   const meta = document.querySelector('meta[name="description"]');
   if (meta && article.metaDescription) meta.setAttribute("content", article.metaDescription);
   reader.innerHTML = `

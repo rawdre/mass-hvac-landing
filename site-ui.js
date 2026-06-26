@@ -19,6 +19,14 @@ const translations = {
     emergencyTitle: "No heat, no AC, or an urgent system issue?",
     emergencyText: "Tell us what changed and whether the system is still running. We will triage the problem and offer the earliest available repair window.",
     emergencyCta: "Request Emergency Help",
+    fleetEyebrow: "Local fleet you can trust",
+    fleetTitle: "When the Ventic van pulls up, comfort is on the way.",
+    fleetText: "Fully stocked trucks, licensed-and-insured verification, and clean, respectful installs across Fitchburg and Central Massachusetts.",
+    fleetTagHeating: "Heating",
+    fleetTagCooling: "Cooling",
+    fleetTagAirflow: "Airflow",
+    fleetTagPerformance: "Performance",
+    fleetCta: "Book a Visit",
     advisorTitle: "Know your likely HVAC path before the sales visit.",
     advisorText: "ComfortFit AI gives homeowners a clean pre-check: likely system direction, rough size range, rebate path, and budget tier.",
     advisorBadge: "Free pre-design",
@@ -115,7 +123,7 @@ const translations = {
     bookingChanged: "What changed?",
     requestService: "Request Service",
     footerMain: "Heat pumps, mini-splits, AC repair, heating repair, emergency HVAC, and maintenance for Massachusetts homes.",
-    footerCompliance: "Compliance note: license, insurance, registration, permit, and Mass Save language must be verified before public launch. BayState Climate Co. is not Mass Save and cannot guarantee rebate approval."
+    footerCompliance: "Compliance note: license, insurance, registration, permit, and Mass Save language must be verified before public launch. Ventic HVAC is not Mass Save and cannot guarantee rebate approval."
   },
   es: {
     urgencyTitle: "Sin calefaccion o AC?",
@@ -137,6 +145,14 @@ const translations = {
     emergencyTitle: "Sin calor, sin AC o con una emergencia?",
     emergencyText: "Dinos que cambio y si el sistema sigue funcionando. Revisamos la urgencia y buscamos la primera ventana disponible.",
     emergencyCta: "Pedir ayuda urgente",
+    fleetEyebrow: "Flota local de confianza",
+    fleetTitle: "Cuando llega la van de Ventic, la comodidad va en camino.",
+    fleetText: "Camiones totalmente equipados, verificacion de licencia y seguro, e instalaciones limpias y respetuosas en Fitchburg y el centro de Massachusetts.",
+    fleetTagHeating: "Calefaccion",
+    fleetTagCooling: "Enfriamiento",
+    fleetTagAirflow: "Flujo de aire",
+    fleetTagPerformance: "Rendimiento",
+    fleetCta: "Reservar visita",
     advisorTitle: "Conoce tu mejor camino HVAC antes de la visita.",
     advisorText: "ComfortFit AI te da una pre-revision limpia: tipo de sistema probable, rango de tamano, incentivos y presupuesto.",
     advisorBadge: "Pre-diseno gratis",
@@ -233,7 +249,7 @@ const translations = {
     bookingChanged: "Que cambio?",
     requestService: "Pedir servicio",
     footerMain: "Heat pumps, mini-splits, reparacion de AC, calefaccion, HVAC de emergencia y mantenimiento para casas en Massachusetts.",
-    footerCompliance: "Nota de cumplimiento: licencia, seguro, registro, permisos y lenguaje de Mass Save deben verificarse antes del lanzamiento publico. BayState Climate Co. no es Mass Save y no puede garantizar aprobacion de incentivos."
+    footerCompliance: "Nota de cumplimiento: licencia, seguro, registro, permisos y lenguaje de Mass Save deben verificarse antes del lanzamiento publico. Ventic HVAC no es Mass Save y no puede garantizar aprobacion de incentivos."
   },
   pt: {
     urgencyTitle: "Sem aquecimento ou AC?",
@@ -255,6 +271,14 @@ const translations = {
     emergencyTitle: "Sem calor, sem AC ou com problema urgente?",
     emergencyText: "Conte o que mudou e se o sistema ainda funciona. Fazemos a triagem e buscamos a primeira janela disponivel.",
     emergencyCta: "Pedir ajuda urgente",
+    fleetEyebrow: "Frota local de confianca",
+    fleetTitle: "Quando a van da Ventic chega, o conforto esta a caminho.",
+    fleetText: "Caminhoes totalmente equipados, verificacao de licenca e seguro, e instalacoes limpas e respeitosas em Fitchburg e no centro de Massachusetts.",
+    fleetTagHeating: "Aquecimento",
+    fleetTagCooling: "Refrigeracao",
+    fleetTagAirflow: "Fluxo de ar",
+    fleetTagPerformance: "Desempenho",
+    fleetCta: "Agendar visita",
     advisorTitle: "Entenda seu melhor caminho HVAC antes da visita.",
     advisorText: "ComfortFit AI entrega uma pre-analise limpa: sistema provavel, faixa de tamanho, incentivos e faixa de orcamento.",
     advisorBadge: "Pre-design gratis",
@@ -351,7 +375,7 @@ const translations = {
     bookingChanged: "O que mudou?",
     requestService: "Pedir servico",
     footerMain: "Heat pumps, mini-splits, reparo de AC, aquecimento, HVAC emergencial e manutencao para casas em Massachusetts.",
-    footerCompliance: "Nota de compliance: licenca, seguro, registro, permissoes e linguagem Mass Save devem ser verificados antes do lancamento publico. BayState Climate Co. nao e Mass Save e nao pode garantir aprovacao de incentivos."
+    footerCompliance: "Nota de compliance: licenca, seguro, registro, permissoes e linguagem Mass Save devem ser verificados antes do lancamento publico. Ventic HVAC nao e Mass Save e nao pode garantir aprovacao de incentivos."
   }
 };
 
