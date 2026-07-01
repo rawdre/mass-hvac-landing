@@ -48,4 +48,4 @@ checklist in the security report if you want full headers.
 
 ## Reporting
 
-Security questions: tech@comeketocatering.com
+Security questions: info@ventichvac.com

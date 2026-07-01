@@ -1680,6 +1680,29 @@ textarea {
   grid-column: 1 / -1;
 }
 
+.booking-status {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  min-height: 1em;
+}
+
+.booking-status:empty {
+  display: none;
+}
+
+.booking-status[data-state="success"] {
+  color: #157347;
+}
+
+.booking-status[data-state="error"] {
+  color: var(--red);
+}
+
+.booking-status[data-state="sending"] {
+  color: var(--navy);
+}
+
 .site-footer {
   padding: 34px clamp(20px, 4vw, 56px);
   color: #d8e2ea;
@@ -1689,6 +1712,32 @@ textarea {
 .site-footer p {
   max-width: 960px;
   margin: 0 0 10px;
+}
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  color: var(--red);
+}
+
+.footer-contact,
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.footer-social a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer-dot {
+  color: #6c7a86;
 }
 
 .article-shell {

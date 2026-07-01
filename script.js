@@ -225,3 +225,100 @@ if (advisorRoot) {
     document.querySelector("#book")?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
+
+// Booking form: capture leads for info@ventichvac.com.
+// Primary path posts to Web3Forms (works on static hosting, emails the company inbox).
+// If no access key is configured yet, or the request fails, it falls back to the
+// visitor's email client so the form always does something useful.
+const WEB3FORMS_ACCESS_KEY = ""; // <-- Paste the Web3Forms access key for info@ventichvac.com here.
+const bookingForm = document.querySelector(".booking-form");
+const bookingSubmit = document.querySelector("[data-submit-booking]");
+const bookingStatus = document.querySelector("[data-booking-status]");
+
+function bookingCopy(key, fallback) {
+  try {
+    const lang = typeof getLanguage === "function" ? getLanguage() : "en";
+    return (translations[lang] && translations[lang][key]) || fallback;
+  } catch (err) {
+    return fallback;
+  }
+}
+
+function setBookingStatus(message, state) {
+  if (!bookingStatus) return;
+  bookingStatus.textContent = message;
+  bookingStatus.dataset.state = state || "";
+}
+
+if (bookingForm && bookingSubmit) {
+  bookingSubmit.addEventListener("click", async () => {
+    if (typeof bookingForm.reportValidity === "function" && !bookingForm.reportValidity()) {
+      return;
+    }
+    const name = getField(bookingForm, "name");
+    const phone = getField(bookingForm, "phone");
+    const email = getField(bookingForm, "email");
+    const city = getField(bookingForm, "city");
+    const service = getField(bookingForm, "service");
+    const details = getField(bookingForm, "details");
+    const subject = `Service request${service ? " - " + service : ""}${name ? " - " + name : ""}`;
+
+    const mailtoFallback = () => {
+      const body = [
+        `Name: ${name || "-"}`,
+        `Phone: ${phone || "-"}`,
+        `Email: ${email || "-"}`,
+        `City: ${city || "-"}`,
+        `Service needed: ${service || "-"}`,
+        "",
+        "What changed:",
+        details || "-"
+      ].join("\n");
+      window.location.href = `mailto:info@ventichvac.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    };
+
+    // Backend not configured yet -> open the visitor's email client.
+    if (!WEB3FORMS_ACCESS_KEY) {
+      mailtoFallback();
+      return;
+    }
+
+    // Honeypot: bots tend to tick every field. Silently ignore.
+    if (bookingForm.elements.botcheck && bookingForm.elements.botcheck.checked) {
+      return;
+    }
+
+    setBookingStatus(bookingCopy("bookingSending", "Sending your request..."), "sending");
+    bookingSubmit.disabled = true;
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          subject,
+          from_name: "Ventic HVAC Website",
+          name,
+          phone,
+          email,
+          city,
+          service,
+          message: details
+        })
+      });
+      const result = await response.json();
+      if (result.success) {
+        setBookingStatus(bookingCopy("bookingSuccess", "Thanks! Your request was sent. We'll reach out shortly."), "success");
+        bookingForm.reset();
+      } else {
+        setBookingStatus(bookingCopy("bookingError", "Something went wrong. Please call us or email info@ventichvac.com."), "error");
+        mailtoFallback();
+      }
+    } catch (err) {
+      setBookingStatus(bookingCopy("bookingError", "Something went wrong. Please call us or email info@ventichvac.com."), "error");
+      mailtoFallback();
+    } finally {
+      bookingSubmit.disabled = false;
+    }
+  });
+}

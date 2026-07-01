@@ -6,7 +6,7 @@
     <!-- Security: CSP is the only HTTP-header-level control GitHub Pages allows (via meta).
          frame-ancestors / X-Frame-Options / X-Content-Type-Options / Permissions-Policy
          cannot be set on GitHub Pages and require a proxy (e.g. Cloudflare) or Vercel. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://www.google.com https://maps.google.com; form-action 'self'; upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.web3forms.com; frame-src https://www.google.com https://maps.google.com; form-action 'self'; upgrade-insecure-requests">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>Ventic HVAC | Massachusetts HVAC, Heat Pumps & Emergency Repair</title>
     <meta name="description" content="Residential HVAC & heat pump installation in Fitchburg, MA and Central Massachusetts. Mini-splits, AC repair, heating repair, emergency HVAC, maintenance plans, and Mass Save rebate guidance.">
@@ -48,8 +48,13 @@
       "description": "Residential HVAC and heat pump installation, mini-splits, AC and heating repair, emergency HVAC service, maintenance plans, and Mass Save rebate guidance in Fitchburg and Central Massachusetts.",
       "url": "https://ventichvac.com/",
       "telephone": "+1-781-381-1212",
+      "email": "info@ventichvac.com",
       "image": "https://ventichvac.com/assets/ventic-van-photo.jpg",
       "priceRange": "$$",
+      "sameAs": [
+        "https://www.instagram.com/ventichvac",
+        "https://www.facebook.com/profile.php?id=61591777041165"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "199 Main St",
@@ -486,11 +491,15 @@
         <form class="booking-form">
           <label>
             <span data-i18n="bookingName">Name</span>
-            <input type="text" name="name" placeholder="Your name">
+            <input type="text" name="name" placeholder="Your name" required>
           </label>
           <label>
             <span data-i18n="bookingPhone">Phone</span>
-            <input type="tel" name="phone" placeholder="(781) 381-1212">
+            <input type="tel" name="phone" placeholder="(781) 381-1212" required>
+          </label>
+          <label>
+            <span data-i18n="bookingEmail">Email</span>
+            <input type="email" name="email" placeholder="you@example.com">
           </label>
           <label>
             <span data-i18n="bookingCity">City</span>
@@ -511,7 +520,9 @@
             <span data-i18n="bookingChanged">What changed?</span>
             <textarea name="details" rows="4" placeholder="Tell us what happened, when it started, and whether the system is still running."></textarea>
           </label>
-          <button class="button primary full" type="button" data-i18n="requestService">Request Service</button>
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="button primary full" type="button" data-submit-booking data-i18n="requestService">Request Service</button>
+          <p class="booking-status full" data-booking-status role="status" aria-live="polite"></p>
         </form>
       </section>
 
@@ -522,6 +533,7 @@
           <div class="office-details">
             <p><strong data-i18n="officeDetailsTitle">Operations Office</strong><br>199 Main St<br>Fitchburg, MA</p>
             <p><strong data-i18n="officeDispatch">Dispatch Line</strong><br><a href="tel:+17813811212">(781) 381-1212</a></p>
+            <p><strong data-i18n="officeEmail">Email</strong><br><a href="mailto:info@ventichvac.com">info@ventichvac.com</a></p>
             <p><strong data-i18n="officeFocus">Service Focus</strong><br><span data-i18n="officeFocusText">Heat pumps, mini-splits, AC repair, heating repair, emergency HVAC, maintenance plans.</span></p>
           </div>
           <a class="button secondary" href="https://www.google.com/maps/search/?api=1&query=199%20Main%20St%2C%20Fitchburg%2C%20MA" target="_blank" rel="noreferrer" data-i18n="googlePin">Open Google Pin</a>
@@ -566,6 +578,15 @@
 
     <footer class="site-footer">
       <p><strong>Ventic HVAC</strong> - <span data-i18n="footerMain">Heat pumps, mini-splits, AC repair, heating repair, emergency HVAC, and maintenance for Massachusetts homes.</span></p>
+      <p class="footer-contact">
+        <a href="mailto:info@ventichvac.com">info@ventichvac.com</a>
+        <span class="footer-dot" aria-hidden="true">&bull;</span>
+        <a href="tel:+17813811212">(781) 381-1212</a>
+      </p>
+      <p class="footer-social">
+        <a href="https://www.instagram.com/ventichvac" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61591777041165" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </p>
       <p data-i18n="footerCompliance">Compliance note: license, insurance, registration, permit, and Mass Save language must be verified before public launch. Ventic HVAC is not Mass Save and cannot guarantee rebate approval.</p>
     </footer>
     <script src="site-ui.js"></script>
