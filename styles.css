@@ -321,6 +321,36 @@ img {
   border-radius: 999px;
 }
 
+.header-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+.header-social a {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  color: var(--navy);
+  border-radius: 999px;
+}
+
+.header-social a:hover {
+  color: var(--red);
+  background: var(--paper);
+}
+
+.header-social svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
 .language-toggle button,
 .theme-toggle {
   display: inline-grid;
@@ -1952,6 +1982,10 @@ textarea {
 }
 
 @media (max-width: 640px) {
+  .header-social {
+    display: none;
+  }
+
   .urgency-bar {
     justify-content: space-between;
     gap: 8px;
