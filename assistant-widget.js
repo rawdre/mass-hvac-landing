@@ -6,7 +6,7 @@ const assistantCopy = {
     title: "Comfort Navigator",
     close: "Close",
     intro: "Tell us what you need and jump to the right place fast.",
-    emergency: "Emergency dispatch: (781) 381-1212",
+    emergency: "Emergency dispatch: (978) 917-9397",
     advisor: "Find my system",
     rebates: "Mass Save help",
     heatPump: "Heat pump estimate",
@@ -20,7 +20,7 @@ const assistantCopy = {
     title: "Navegador de Confort",
     close: "Cerrar",
     intro: "Dinos que necesitas y ve rapido al lugar correcto.",
-    emergency: "Emergencia: (781) 381-1212",
+    emergency: "Emergencia: (978) 917-9397",
     advisor: "Encontrar mi sistema",
     rebates: "Ayuda Mass Save",
     heatPump: "Cotizar heat pump",
@@ -34,7 +34,7 @@ const assistantCopy = {
     title: "Navegador de Conforto",
     close: "Fechar",
     intro: "Diga o que precisa e va direto para a area certa.",
-    emergency: "Emergencia: (781) 381-1212",
+    emergency: "Emergencia: (978) 917-9397",
     advisor: "Encontrar meu sistema",
     rebates: "Ajuda Mass Save",
     heatPump: "Cotacao heat pump",
@@ -55,7 +55,7 @@ widget.innerHTML = `
       <button type="button" aria-label="Close help" data-assistant-copy="close">Close</button>
     </div>
     <p data-assistant-copy="intro">Tell us what you need and jump to the right place fast.</p>
-    <a class="assistant-emergency" href="tel:+17813811212" data-assistant-copy="emergency">Emergency dispatch: (781) 381-1212</a>
+    <a class="assistant-emergency" href="tel:+19789179397" data-assistant-copy="emergency">Emergency dispatch: (978) 917-9397</a>
     <div class="assistant-actions">
       <button type="button" data-assistant-advisor data-assistant-copy="advisor">Find my system</button>
       <a href="index.html#rebates" data-assistant-copy="rebates">Mass Save help</a>

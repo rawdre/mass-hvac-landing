@@ -2,7 +2,7 @@ const translations = {
   en: {
     urgencyTitle: "No Heat or AC?",
     urgencyText: "Same-day repair windows may be available today.",
-    urgencyCall: "Call (781) 381-1212",
+    urgencyCall: "Call (978) 917-9397",
     navServices: "Services",
     navRebates: "Rebates",
     navBlog: "Blog",
@@ -21,7 +21,7 @@ const translations = {
     emergencyCta: "Request Emergency Help",
     fleetEyebrow: "Local fleet you can trust",
     fleetTitle: "When the Ventic van pulls up, comfort is on the way.",
-    fleetText: "Fully stocked trucks, licensed-and-insured verification, and clean, respectful installs across Fitchburg and Central Massachusetts.",
+    fleetText: "Fully stocked trucks, licensed-and-insured verification, and clean, respectful installs across Marlborough and Central Massachusetts.",
     fleetTagHeating: "Heating",
     fleetTagCooling: "Cooling",
     fleetTagAirflow: "Airflow",
@@ -41,7 +41,7 @@ const translations = {
     back: "Back",
     next: "Next",
     getDirection: "Get My HVAC Direction",
-    servicesTitle: "Emergency AC Repair in Fitchburg, MA and Central Massachusetts",
+    servicesTitle: "Emergency AC Repair in Marlborough, MA and Central Massachusetts",
     servicesText: "Repair-first diagnostics, clean installation standards, and heat pump planning for old homes, tight lots, cold winters, and rebate paperwork.",
     serviceHeatPumps: "Heat Pumps",
     serviceHeatPumpsText: "Cold-climate system design, replacement planning, financing options, and rebate guidance.",
@@ -123,17 +123,22 @@ const translations = {
     bookingCity: "City",
     bookingService: "Service needed",
     bookingChanged: "What changed?",
+    smsConsentLabel: "I agree to receive SMS updates and follow-up messages from Ventic HVAC.",
+    legalConsentLabel: "I have read and agree to the Privacy Policy and Terms of Service.",
+    formPolicyLinks: "Read our <a href=\"privacy.html\">Privacy Policy</a> and <a href=\"terms.html\">Terms of Service</a>.",
     requestService: "Request Service",
     bookingSending: "Sending your request...",
     bookingSuccess: "Thanks! Your request was sent. We'll reach out shortly.",
     bookingError: "Something went wrong. Please call us or email info@ventichvac.com.",
+    privacyPolicy: "Privacy Policy",
+    termsOfService: "Terms of Service",
     footerMain: "Heat pumps, mini-splits, AC repair, heating repair, emergency HVAC, and maintenance for Massachusetts homes.",
     footerCompliance: "Compliance note: license, insurance, registration, permit, and Mass Save language must be verified before public launch. Ventic HVAC is not Mass Save and cannot guarantee rebate approval."
   },
   es: {
     urgencyTitle: "Sin calefaccion o AC?",
     urgencyText: "Podemos tener ventanas de reparacion para hoy.",
-    urgencyCall: "Llama (781) 381-1212",
+    urgencyCall: "Llama (978) 917-9397",
     navServices: "Servicios",
     navRebates: "Incentivos",
     navBlog: "Blog",
@@ -152,7 +157,7 @@ const translations = {
     emergencyCta: "Pedir ayuda urgente",
     fleetEyebrow: "Flota local de confianza",
     fleetTitle: "Cuando llega la van de Ventic, la comodidad va en camino.",
-    fleetText: "Camiones totalmente equipados, verificacion de licencia y seguro, e instalaciones limpias y respetuosas en Fitchburg y el centro de Massachusetts.",
+    fleetText: "Camiones totalmente equipados, verificacion de licencia y seguro, e instalaciones limpias y respetuosas en Marlborough y el centro de Massachusetts.",
     fleetTagHeating: "Calefaccion",
     fleetTagCooling: "Enfriamiento",
     fleetTagAirflow: "Flujo de aire",
@@ -172,7 +177,7 @@ const translations = {
     back: "Atras",
     next: "Siguiente",
     getDirection: "Recibir guia HVAC",
-    servicesTitle: "Reparacion de AC de emergencia en Fitchburg, MA y Central Massachusetts",
+    servicesTitle: "Reparacion de AC de emergencia en Marlborough, MA y Central Massachusetts",
     servicesText: "Diagnostico primero, instalaciones limpias y planificacion de heat pumps para casas antiguas, lotes pequenos, inviernos frios y papeleo de incentivos.",
     serviceHeatPumps: "Heat Pumps",
     serviceHeatPumpsText: "Diseno para clima frio, reemplazo, opciones de financiamiento y ayuda con incentivos.",
@@ -254,17 +259,22 @@ const translations = {
     bookingCity: "Ciudad",
     bookingService: "Servicio necesario",
     bookingChanged: "Que cambio?",
+    smsConsentLabel: "Acepto recibir actualizaciones por SMS y mensajes de seguimiento de Ventic HVAC.",
+    legalConsentLabel: "He leido y acepto la Politica de Privacidad y los Terminos de Servicio.",
+    formPolicyLinks: "Lee nuestra <a href=\"privacy.html\">Politica de Privacidad</a> y los <a href=\"terms.html\">Terminos de Servicio</a>.",
     requestService: "Pedir servicio",
     bookingSending: "Enviando tu solicitud...",
     bookingSuccess: "Gracias! Tu solicitud fue enviada. Te contactaremos pronto.",
     bookingError: "Algo salio mal. Llamanos o escribe a info@ventichvac.com.",
+    privacyPolicy: "Politica de Privacidad",
+    termsOfService: "Terminos de Servicio",
     footerMain: "Heat pumps, mini-splits, reparacion de AC, calefaccion, HVAC de emergencia y mantenimiento para casas en Massachusetts.",
     footerCompliance: "Nota de cumplimiento: licencia, seguro, registro, permisos y lenguaje de Mass Save deben verificarse antes del lanzamiento publico. Ventic HVAC no es Mass Save y no puede garantizar aprobacion de incentivos."
   },
   pt: {
     urgencyTitle: "Sem aquecimento ou AC?",
     urgencyText: "Podemos ter janelas de reparo para hoje.",
-    urgencyCall: "Ligue (781) 381-1212",
+    urgencyCall: "Ligue (978) 917-9397",
     navServices: "Servicos",
     navRebates: "Incentivos",
     navBlog: "Blog",
@@ -283,7 +293,7 @@ const translations = {
     emergencyCta: "Pedir ajuda urgente",
     fleetEyebrow: "Frota local de confianca",
     fleetTitle: "Quando a van da Ventic chega, o conforto esta a caminho.",
-    fleetText: "Caminhoes totalmente equipados, verificacao de licenca e seguro, e instalacoes limpas e respeitosas em Fitchburg e no centro de Massachusetts.",
+    fleetText: "Caminhoes totalmente equipados, verificacao de licenca e seguro, e instalacoes limpas e respeitosas em Marlborough e no centro de Massachusetts.",
     fleetTagHeating: "Aquecimento",
     fleetTagCooling: "Refrigeracao",
     fleetTagAirflow: "Fluxo de ar",
@@ -303,7 +313,7 @@ const translations = {
     back: "Voltar",
     next: "Proximo",
     getDirection: "Receber direcao HVAC",
-    servicesTitle: "Reparo de AC emergencial em Fitchburg, MA e Central Massachusetts",
+    servicesTitle: "Reparo de AC emergencial em Marlborough, MA e Central Massachusetts",
     servicesText: "Diagnostico primeiro, instalacao limpa e planejamento de heat pumps para casas antigas, lotes apertados, invernos frios e papelada de incentivos.",
     serviceHeatPumps: "Heat Pumps",
     serviceHeatPumpsText: "Projeto para clima frio, planejamento de troca, financiamento e ajuda com incentivos.",
@@ -385,10 +395,15 @@ const translations = {
     bookingCity: "Cidade",
     bookingService: "Servico necessario",
     bookingChanged: "O que mudou?",
+    smsConsentLabel: "Concordo em receber atualizacoes por SMS e mensagens de acompanhamento da Ventic HVAC.",
+    legalConsentLabel: "Li e concordo com a Politica de Privacidade e os Termos de Servico.",
+    formPolicyLinks: "Leia nossa <a href=\"privacy.html\">Politica de Privacidade</a> e nossos <a href=\"terms.html\">Termos de Servico</a>.",
     requestService: "Pedir servico",
     bookingSending: "Enviando sua solicitacao...",
     bookingSuccess: "Obrigado! Sua solicitacao foi enviada. Entraremos em contato em breve.",
     bookingError: "Algo deu errado. Ligue para nos ou escreva para info@ventichvac.com.",
+    privacyPolicy: "Politica de Privacidade",
+    termsOfService: "Termos de Servico",
     footerMain: "Heat pumps, mini-splits, reparo de AC, aquecimento, HVAC emergencial e manutencao para casas em Massachusetts.",
     footerCompliance: "Nota de compliance: licenca, seguro, registro, permissoes e linguagem Mass Save devem ser verificados antes do lancamento publico. Ventic HVAC nao e Mass Save e nao pode garantir aprovacao de incentivos."
   }
@@ -404,6 +419,10 @@ function applyLanguage(language) {
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.getAttribute("data-i18n");
     if (dictionary[key]) node.textContent = dictionary[key];
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach((node) => {
+    const key = node.getAttribute("data-i18n-html");
+    if (dictionary[key]) node.innerHTML = dictionary[key];
   });
   localStorage.setItem("baystate-language", language);
   document.dispatchEvent(new CustomEvent("baystate:language", { detail: { language } }));
@@ -486,7 +505,7 @@ function injectPricingPopup() {
     <strong data-i18n="pricingTitle">Want a real number before the visit?</strong>
     <p data-i18n="pricingText">Call us and we will narrow the likely repair or heat pump budget before we send a technician.</p>
     <div>
-      <a class="button primary small" href="tel:+17813811212" data-i18n="pricingCall">Call for Pricing</a>
+      <a class="button primary small" href="tel:+19789179397" data-i18n="pricingCall">Call for Pricing</a>
       <button class="button secondary small" type="button" data-open-advisor data-i18n="pricingAdvisor">Use ComfortFit AI</button>
     </div>
   `;
@@ -512,7 +531,7 @@ function injectPricingPopup() {
 
 function injectWhatsApp() {
   if (document.querySelector(".wa-float")) return;
-  const number = "19787988007";
+  const number = "19789179397";
   const text = encodeURIComponent("Hi Ventic HVAC! I'd like help with my heating or cooling.");
   const a = document.createElement("a");
   a.className = "wa-float";

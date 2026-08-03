@@ -170,6 +170,10 @@ if (advisorRoot) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
+    if (typeof form.reportValidity === "function" && !form.reportValidity()) {
+      return;
+    }
+
     const fileInput = form.elements.files;
     const data = {
       goal: getField(form, "goal"),
@@ -261,6 +265,8 @@ if (bookingForm && bookingSubmit) {
     const city = getField(bookingForm, "city");
     const service = getField(bookingForm, "service");
     const details = getField(bookingForm, "details");
+    const smsConsent = bookingForm.elements.smsConsent?.checked ? "Yes" : "No";
+    const legalConsent = bookingForm.elements.legalConsent?.checked ? "Yes" : "No";
     const subject = `Service request${service ? " - " + service : ""}${name ? " - " + name : ""}`;
 
     const mailtoFallback = () => {
@@ -270,6 +276,8 @@ if (bookingForm && bookingSubmit) {
         `Email: ${email || "-"}`,
         `City: ${city || "-"}`,
         `Service needed: ${service || "-"}`,
+        `SMS consent: ${smsConsent}`,
+        `Privacy/Terms accepted: ${legalConsent}`,
         "",
         "What changed:",
         details || "-"
@@ -303,7 +311,9 @@ if (bookingForm && bookingSubmit) {
           email,
           city,
           service,
-          message: details
+          message: details,
+          sms_consent: smsConsent,
+          legal_consent: legalConsent
         })
       });
       const result = await response.json();
