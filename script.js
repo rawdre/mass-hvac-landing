@@ -265,8 +265,8 @@ if (bookingForm && bookingSubmit) {
     const city = getField(bookingForm, "city");
     const service = getField(bookingForm, "service");
     const details = getField(bookingForm, "details");
-    const smsConsent = bookingForm.elements.smsConsent?.checked ? "Yes" : "No";
-    const legalConsent = bookingForm.elements.legalConsent?.checked ? "Yes" : "No";
+    const marketingConsent = bookingForm.elements.marketingConsent?.checked ? "Yes" : "No";
+    const serviceConsent = bookingForm.elements.serviceConsent?.checked ? "Yes" : "No";
     const subject = `Service request${service ? " - " + service : ""}${name ? " - " + name : ""}`;
 
     const mailtoFallback = () => {
@@ -276,8 +276,8 @@ if (bookingForm && bookingSubmit) {
         `Email: ${email || "-"}`,
         `City: ${city || "-"}`,
         `Service needed: ${service || "-"}`,
-        `SMS consent: ${smsConsent}`,
-        `Privacy/Terms accepted: ${legalConsent}`,
+        `Marketing SMS consent: ${marketingConsent}`,
+        `Non-marketing SMS consent: ${serviceConsent}`,
         "",
         "What changed:",
         details || "-"
@@ -312,8 +312,8 @@ if (bookingForm && bookingSubmit) {
           city,
           service,
           message: details,
-          sms_consent: smsConsent,
-          legal_consent: legalConsent
+          marketing_sms_consent: marketingConsent,
+          service_sms_consent: serviceConsent
         })
       });
       const result = await response.json();
