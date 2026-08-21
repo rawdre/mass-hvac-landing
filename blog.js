@@ -6,7 +6,7 @@ if (library && Array.isArray(window.HVAC_ARTICLES)) {
       <span>${article.category}</span>
       <h2>${article.title}</h2>
       <p>${article.excerpt || article.metaDescription}</p>
-      <a class="text-link" href="article.html?slug=${encodeURIComponent(article.slug)}">Read article</a>
+      <a class="text-link" href="${article.path || `article.html?slug=${encodeURIComponent(article.slug)}`}">Read article</a>
     </article>
   `).join("");
 }

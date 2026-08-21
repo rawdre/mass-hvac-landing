@@ -1,13 +1,19 @@
 window.HVAC_ARTICLES = [
   {
-    "title": "Why Your AC Is Running but Not Cooling",
-    "slug": "ac-not-cooling",
-    "metaTitle": "AC Running but Not Cooling? Common HVAC Causes",
-    "metaDescription": "If your AC is running but not cooling, learn the most common causes, what homeowners can check safely, and when to call an HVAC technician.",
+    "title": "AC Running but Not Cooling? What Massachusetts Homeowners Should Check",
+    "slug": "ac-running-but-not-cooling",
+    "aliases": ["ac-not-cooling"],
+    "metaTitle": "AC Running but Not Cooling? What to Check | Ventic HVAC",
+    "metaDescription": "Is your AC running but not cooling? Learn safe checks, common causes, when to turn the system off, and when to call Ventic HVAC for service.",
     "primaryKeyword": "AC running but not cooling",
     "category": "AC Repair",
-    "excerpt": "When an air conditioner is running but the house is not cooling, the problem usually falls into one of a few categories: airflow, electrical components, refrigerant performance, thermostat settings, or equipment age.",
-    "html": "<h1>Why Your AC Is Running but Not Cooling</h1>\n<p>When an air conditioner is running but the house is not cooling, the problem usually falls into one of a few categories: airflow, electrical components, refrigerant performance, thermostat settings, or equipment age.</p>\n<p>The goal is not to guess. The goal is to narrow the issue safely and call for service when the problem needs a technician.</p>\n<h2>What homeowners can check first</h2>\n<p>Start with simple checks:</p>\n<ul>\n<li>Confirm the thermostat is set to cooling.</li>\n<li>Lower the set temperature a few degrees.</li>\n<li>Make sure the fan is not set to \"on\" by mistake if the system is only circulating warm air.</li>\n<li>Check the air filter.</li>\n<li>Make sure supply vents are open.</li>\n<li>Look at the outdoor unit and confirm the fan is spinning.</li>\n<li>Clear leaves or debris around the outdoor unit.</li>\n<li>Check whether breakers have tripped.</li>\n</ul>\n<p>Do not open electrical panels inside equipment and do not add refrigerant yourself.</p>\n<h2>Common causes</h2>\n<h3>Dirty air filter</h3>\n<p>A clogged filter can reduce airflow and make the system struggle. In some cases, it can contribute to freezing on the indoor coil.</p>\n<h3>Dirty outdoor coil</h3>\n<p>The outdoor unit needs to release heat. If the coil is blocked with debris, grass, cottonwood, or dirt, cooling performance drops.</p>\n<h3>Failed capacitor or motor</h3>\n<p>If the outdoor fan or compressor is not starting correctly, the system may run without cooling properly. This requires professional service.</p>\n<h3>Low refrigerant or refrigerant leak</h3>\n<p>Low refrigerant often points to a leak. The answer is not simply \"top it off.\" A technician should diagnose the leak, repair strategy, and whether the equipment is worth repairing.</p>\n<h3>Frozen coil</h3>\n<p>Ice can form because of airflow problems, refrigerant issues, or other system faults. Turn the system off and call for service if you see ice.</p>\n<h3>Undersized or aging equipment</h3>\n<p>Sometimes the system runs constantly because it cannot keep up anymore. This could be a sizing issue, a duct issue, an insulation issue, or a sign the equipment is near end of life.</p>\n<h2>Repair or replace?</h2>\n<p>Repair usually makes sense when the equipment is newer, the issue is isolated, and the total cost is reasonable. Replacement becomes more realistic when the system is old, uses outdated refrigerant, has repeated failures, or cannot keep the home comfortable.</p>\n<p>For Massachusetts homeowners, this is also a good time to compare a standard AC replacement against a heat pump upgrade. A cold-climate heat pump can provide both heating and cooling, but it needs proper sizing and design.</p>\n<h2>Bottom line</h2>\n<p>If the AC is running but not cooling, check the thermostat, filter, vents, breaker, and outdoor unit clearance. If those do not solve it, schedule a diagnostic visit. A good technician should explain the problem clearly and give written repair or replacement options before work begins.</p>\n"
+    "excerpt": "Your air conditioner is running, the thermostat is set to cool, and you can hear the system working, but the house still feels warm. This is one of the most common cooling problems homeowners experience, and it can have several causes.",
+    "path": "blog/ac-running-but-not-cooling/",
+    "ctaTitle": "Get help when your AC is running but not cooling",
+    "ctaText": "If you have completed the safe checks above and your home is still not cooling, Ventic HVAC can help identify the problem and explain the next step. Request an AC service appointment and include any photos or video that show what the system is doing.",
+    "ctaButtonText": "Request AC Service",
+    "ctaLink": "/#book",
+    "html": "<h1>AC Running but Not Cooling? What Massachusetts Homeowners Should Check</h1>\n<p>Your air conditioner is running, the thermostat is set to cool, and you can hear the system working, but the house still feels warm. This is one of the most common cooling problems homeowners experience, and it can have several causes. Some are simple enough to check safely. Others require an HVAC technician to diagnose before a small issue becomes a larger repair.</p>\n<p>If your AC is running but not cooling, use the steps below to gather useful information, protect the system, and decide when it is time to request service.</p>\n<h2>First, confirm what the system is actually doing</h2>\n<p>Before changing settings or opening equipment, spend a few minutes observing the system. These details can help narrow down the problem and give the technician a clearer starting point.</p>\n<h3>1. Check the thermostat</h3>\n<p>Make sure the thermostat is set to COOL and the temperature is set lower than the current room temperature. Set the fan to AUTO rather than ON. When the fan is left ON, it may continue blowing air even while the cooling cycle is not operating, which can make it seem like the AC is running without cooling.</p>\n<p>If the thermostat uses batteries, replace them if the display is dim, blank, or unreliable.</p>\n<h3>2. Feel the air coming from the vents</h3>\n<p>Check more than one supply vent. Ask yourself:</p>\n<ul>\n<li>Is air coming out of the vents?</li>\n<li>Does the air feel cool, room temperature, or warm?</li>\n<li>Is the airflow strong, weak, or almost absent?</li>\n<li>Are some rooms cooling while others stay warm?</li>\n</ul>\n<p>Weak airflow and warm airflow point to different possible problems, so this distinction matters.</p>\n<h3>3. Look at the outdoor unit</h3>\n<p>From a safe distance, check whether the outdoor unit appears to be running. You may hear the fan and compressor, and you should normally see the fan spinning during a cooling call. If the indoor blower is moving air but the outdoor unit is silent, the system may need professional service.</p>\n<p>Do not open panels, touch wiring, or try to restart electrical components yourself.</p>\n<h2>Safe checks you can do before requesting service</h2>\n<h3>Check the air filter</h3>\n<p>A clogged air filter can restrict airflow, reduce cooling performance, and contribute to coil icing. If the filter is visibly dirty, replace it with the correct size and type recommended for your system. After replacing it, give the system time to operate and see whether airflow improves.</p>\n<h3>Check supply and return vents</h3>\n<p>Make sure supply vents are open and not blocked by furniture, rugs, curtains, or boxes. Return-air grilles should also be clear. Closing too many vents does not usually save energy and may interfere with normal airflow.</p>\n<h3>Check the circuit breaker once</h3>\n<p>If you are comfortable checking the electrical panel, look for a tripped breaker labeled for the air conditioner, condenser, air handler, or furnace. If a breaker has tripped, reset it only once. If it trips again, leave it off and contact a qualified professional. Repeatedly resetting a breaker can be unsafe.</p>\n<h3>Look for ice or unusual water</h3>\n<p>Ice on the refrigerant lines or indoor coil area can be associated with restricted airflow, a dirty filter, a blower problem, or a refrigerant-related issue. If you see ice, turn cooling off and set the fan to ON only if it is operating normally. Do not chip or scrape the ice. Let the system thaw and request service.</p>\n<p>Water around the indoor equipment may indicate a condensate drainage problem or melting ice. If water is near electrical components or causing property damage, shut the system off and arrange service promptly.</p>\n<h2>Common reasons an AC runs but does not cool</h2>\n<p>A proper diagnosis requires inspection, but common causes include:</p>\n<ul>\n<li>A dirty or incorrectly sized air filter.</li>\n<li>Restricted airflow from blocked vents or a dirty coil.</li>\n<li>A thermostat setting, battery, or control problem.</li>\n<li>A failed capacitor, contactor, motor, or other electrical component.</li>\n<li>The outdoor unit not operating correctly.</li>\n<li>A frozen evaporator coil.</li>\n<li>A condensate safety switch interrupting cooling.</li>\n<li>Low refrigerant caused by a leak.</li>\n<li>A system that is struggling with its current condition, sizing, or load.</li>\n</ul>\n<p>Refrigerant does not get \"used up\" like fuel. If a system is low, a technician should determine why and explain the repair options rather than simply adding refrigerant without checking for the cause.</p>\n<h2>When should you turn the AC off?</h2>\n<p>Turn the system off and request professional help if you notice any of the following:</p>\n<ul>\n<li>A burning smell, smoke, sparking, or buzzing near electrical components.</li>\n<li>A breaker that trips again after one reset.</li>\n<li>Ice on the equipment or refrigerant line.</li>\n<li>Water leaking near electrical parts or causing damage.</li>\n<li>The outdoor unit is not operating while the indoor fan keeps running.</li>\n<li>Loud grinding, screeching, banging, or other new mechanical noises.</li>\n<li>The home remains uncomfortably warm despite basic checks.</li>\n</ul>\n<p>If you smell gas or suspect carbon monoxide, leave the area and contact the appropriate emergency service or utility. Do not stay inside to troubleshoot.</p>\n<h2>What information should you send before an HVAC visit?</h2>\n<p>A short video or a few clear photos can help the service team prepare. When possible, provide:</p>\n<ul>\n<li>A photo of the thermostat showing its current mode and temperature.</li>\n<li>A short video showing the airflow at a vent.</li>\n<li>A video of the outdoor unit while the thermostat is calling for cooling.</li>\n<li>A photo of any ice, water, warning message, or unusual condition.</li>\n<li>The equipment brand and model number if it is easy and safe to access.</li>\n<li>When the problem started and whether it happens continuously or intermittently.</li>\n</ul>\n<p>This information does not replace an on-site diagnosis, but it can make the first conversation more useful.</p>\n<h2>What happens during a professional AC diagnostic visit?</h2>\n<p>The technician will confirm the symptoms, inspect the system, test the relevant components, and identify the likely cause. The exact process depends on the equipment and what is found. After the inspection, the technician can explain the recommended next step and provide a written estimate for the applicable repair.</p>\n<p>Avoid accepting a guaranteed repair price based only on a short description. Different faults can create the same symptom, and the final recommendation should be based on the actual condition of the system.</p>\n<p><strong>Ventic HVAC serves homeowners in its Massachusetts service area. Appointment availability varies. An on-site inspection is required before a final repair recommendation or written estimate can be confirmed.</strong></p>\n"
   },
   {
     "title": "How Ductless Zoning Works",
@@ -200,13 +206,220 @@ window.HVAC_ARTICLES = [
     "html": "<h1>What Happens During A Spring AC Tune-Up?</h1>\n<p>A spring AC tune-up prepares the cooling system before peak summer demand. The goal is to catch small issues before the first heat wave, improve performance, and reduce the chance of surprise breakdowns.</p>\n<h2>What a tune-up should include</h2>\n<p>A professional AC tune-up may include:</p>\n<ul>\n<li>Filter check.</li>\n<li>Thermostat review.</li>\n<li>Outdoor coil inspection.</li>\n<li>Electrical component inspection.</li>\n<li>Capacitor and contactor check.</li>\n<li>Condensate drain check.</li>\n<li>Blower and airflow review.</li>\n<li>Temperature split check.</li>\n<li>Refrigerant performance review when needed.</li>\n<li>Outdoor unit clearance check.</li>\n<li>Written recommendations.</li>\n</ul>\n<p>The technician should explain findings in plain language.</p>\n<h2>Why spring timing matters</h2>\n<p>During the first heat wave, HVAC schedules fill quickly. If the system fails then, homeowners may wait longer and have fewer options.</p>\n<p>Spring service gives time to handle small repairs before the system is under heavy load.</p>\n<h2>What homeowners can do before the visit</h2>\n<p>Before the technician arrives:</p>\n<ul>\n<li>Replace or locate the filter.</li>\n<li>Clear leaves and debris around the outdoor unit.</li>\n<li>Make note of rooms that were uncomfortable last summer.</li>\n<li>Write down unusual noises or smells.</li>\n<li>Make sure equipment access is clear.</li>\n</ul>\n<h2>What a tune-up cannot fix</h2>\n<p>A tune-up is not a substitute for major repair. If the system has a refrigerant leak, failing compressor, severe airflow issue, or major electrical problem, the technician should provide repair or replacement options.</p>\n<h2>Bottom line</h2>\n<p>A spring AC tune-up is a practical way to reduce risk before summer. Look for a clear checklist, honest findings, and written recommendations instead of a vague \"system looks good.\"</p>\n"
   },
   {
-    "title": "Homeowner HVAC Questions",
-    "slug": "homeowner-hvac-questions",
-    "metaTitle": "Most Asked HVAC Questions from Homeowners",
-    "metaDescription": "Answers to common homeowner HVAC questions about heat pumps, AC repair, heating repair, mini-splits, maintenance, estimates, rebates, and emergency service.",
-    "primaryKeyword": "HVAC questions",
+    "title": "HVAC Frequently Asked Questions",
+    "slug": "hvac-frequently-asked-questions",
+    "aliases": ["homeowner-hvac-questions"],
+    "metaTitle": "HVAC FAQs | AC Repair, Heating, Heat Pumps & Mini-Splits | Ventic HVAC",
+    "metaDescription": "Get answers to common HVAC questions about AC repair, heating repair, heat pumps, mini-splits, maintenance, installation, Mass Save rebates, estimates, and emergency HVAC service in Massachusetts.",
+    "primaryKeyword": "HVAC FAQs",
     "category": "FAQ",
-    "excerpt": "The final size should be based on a load calculation, not square footage alone. Square footage helps start the conversation, but insulation, windows, ductwork, home age, air leakage, and room layout all affect sizing.",
-    "html": "<h1>Homeowner HVAC Questions</h1>\n<h2>What size HVAC system do I need?</h2>\n<p>The final size should be based on a load calculation, not square footage alone. Square footage helps start the conversation, but insulation, windows, ductwork, home age, air leakage, and room layout all affect sizing.</p>\n<h2>Can an AI tool tell me exactly what HVAC system to buy?</h2>\n<p>AI can provide a smart pre-design, budget range, and likely system direction. Final equipment selection should still be verified by a qualified HVAC professional with Manual J, field measurements, and permit review.</p>\n<h2>Are heat pumps good for Massachusetts homes?</h2>\n<p>Cold-climate heat pumps can work well in Massachusetts when they are sized and installed correctly. The right design depends on the home, insulation, current fuel, ductwork, and comfort goals.</p>\n<h2>What is the difference between a heat pump and a mini-split?</h2>\n<p>A heat pump is the equipment technology. A mini-split is a ductless heat pump system with indoor units serving specific zones. Some heat pumps are ducted, and some are ductless.</p>\n<h2>Should I repair or replace my AC?</h2>\n<p>Repair may make sense when the system is newer and the issue is isolated. Replacement becomes more realistic when the system is old, unreliable, expensive to repair, or no longer keeps the home comfortable.</p>\n<h2>Why is my AC running but not cooling?</h2>\n<p>Common causes include a dirty filter, dirty outdoor coil, failed capacitor, airflow problem, refrigerant issue, frozen coil, thermostat issue, or aging equipment.</p>\n<h2>What should I check before calling for no heat?</h2>\n<p>Check thermostat settings, batteries, system switch, breaker, filter, vents, and fuel level if applicable. If you smell gas, hear a carbon monoxide alarm, see smoke, or smell burning electrical odor, leave the home and call emergency services or the utility emergency line.</p>\n<h2>How often should HVAC maintenance be done?</h2>\n<p>Most homes benefit from seasonal maintenance. Heating and cooling systems should be checked before peak demand whenever possible.</p>\n<h2>Do mini-splits need maintenance?</h2>\n<p>Yes. Filters, indoor heads, outdoor coils, drains, and system performance should be checked. Maintenance helps protect efficiency and comfort.</p>\n<h2>Can mini-splits heat the whole house?</h2>\n<p>Sometimes. Whole-home ductless design depends on layout, insulation, room separation, outdoor unit capacity, and homeowner comfort expectations. Some homes need multiple zones or a hybrid plan.</p>\n<h2>What is Mass Save?</h2>\n<p>Mass Save is a Massachusetts energy-efficiency program. It may offer rebates, financing, or guidance depending on current rules and eligibility. Final approval comes from program administrators, not the HVAC contractor.</p>\n<h2>Are Mass Save rebates guaranteed?</h2>\n<p>No. Rebate amounts, eligibility, equipment requirements, and paperwork rules can change. A contractor can help guide the process, but approval is not guaranteed.</p>\n<h2>What photos should I send before an HVAC estimate?</h2>\n<p>Send photos of current equipment, thermostat, outdoor unit, electrical panel, rooms with comfort problems, and any existing estimate or floor plan.</p>\n<h2>How fast can emergency HVAC service happen?</h2>\n<p>That depends on schedule, weather demand, location, and staffing. The site should promise realistic repair windows, not fake guarantees.</p>\n<h2>What should be included in an HVAC estimate?</h2>\n<p>An estimate should include scope, equipment, labor, materials, permit assumptions, electrical or trade scope, warranty, exclusions, payment terms, and rebate disclaimers where relevant.</p>\n<h2>Do I need permits for HVAC work?</h2>\n<p>Many HVAC replacements, heat pump installs, mini-splits, electrical work, sheet metal work, gas work, or oil burner work may require permits. Requirements vary by city/town and scope.</p>\n<h2>Is financing available for HVAC?</h2>\n<p>Many homeowners use financing for heat pumps, mini-splits, and replacement systems. Financing may include program-based options where eligible or third-party financing. Terms and approval vary.</p>\n<h2>What is a maintenance plan?</h2>\n<p>A maintenance plan is a scheduled service program that can include seasonal visits, priority scheduling, filter reminders, system checks, repair recommendations, and documented equipment history.</p>\n<h2>What is the best HVAC system for an older home?</h2>\n<p>There is no universal answer. Older homes often need a comparison between ductless mini-splits, ducted heat pumps, hybrid systems, or targeted repairs. Insulation and room-by-room comfort issues matter.</p>\n<h2>How do I get a better HVAC price?</h2>\n<p>Give the contractor better information upfront: square footage, year built, current system, comfort problems, photos, utility bill range, and any floor plan. Better information reduces guesswork and helps produce clearer options.</p>\n"
+    "excerpt": "Get answers to common homeowner HVAC questions about AC repair, heating repair, heat pumps, mini-splits, maintenance, installation, estimates, Mass Save rebates, and emergency service.",
+    "path": "blog/hvac-frequently-asked-questions/",
+    "ctaTitle": "Still have an HVAC question?",
+    "ctaText": "Contact Ventic HVAC to tell us what is happening with your heating or cooling system. We can help determine the appropriate next step and schedule service when needed.",
+    "ctaButtonText": "Request Service",
+    "ctaLink": "/#book",
+    "html": `<h1>HVAC Frequently Asked Questions</h1>
+<p>Get answers to common homeowner HVAC questions about air conditioning, heating, heat pumps, mini-splits, maintenance, installation planning, estimates, Mass Save rebate guidance, and emergency service.</p>
+<div class="faq-group">
+  <h2>General HVAC Service</h2>
+  <details class="faq-item" open>
+    <summary>What HVAC services does Ventic HVAC provide?</summary>
+    <p>Ventic HVAC provides residential heating and cooling services, including <a href="/#services">AC repair</a>, <a href="/#services">heating repair</a>, <a href="/#heat-pumps">heat pumps</a>, <a href="/#services">mini-splits</a>, HVAC installation and replacement, <a href="/#emergency">emergency HVAC service</a>, and <a href="/#maintenance">seasonal maintenance</a>.</p>
+  </details>
+  <details class="faq-item">
+    <summary>What information should I have ready when I contact Ventic HVAC?</summary>
+    <p>It helps to know what type of system you have, what problem you are experiencing, when the issue started, and whether the system is still running. Photos or videos may also be helpful when they can be taken safely.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Can you diagnose my HVAC problem over the phone?</summary>
+    <p>We can ask questions to better understand what is happening and help determine the appropriate next step. A technician may still need to inspect the system in person before confirming the cause of the problem.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>AC Repair</h2>
+  <details class="faq-item">
+    <summary>Why won't my air conditioner turn on?</summary>
+    <p>Several issues can cause an AC system not to start. When you contact us, we may ask whether the thermostat is responding, whether the indoor fan is blowing, and whether the outdoor unit is running. A technician can then inspect the system and determine the cause.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is my AC running but not cooling my home?</summary>
+    <p>An AC that runs without properly cooling may be affected by airflow problems, system performance issues, or another equipment condition. Let us know whether the air feels cool, warm, or room temperature, how strong the airflow is, and whether the problem affects the whole home or only certain rooms. You can also review our guide on <a href="/blog/ac-running-but-not-cooling/">what homeowners should check when the AC is running but not cooling</a>.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is my AC blowing warm air?</summary>
+    <p>Warm air from the vents can have several possible causes. Rather than guessing over the phone, we collect the symptoms and have a technician inspect the system so the actual issue can be identified.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is the airflow from my AC weak?</summary>
+    <p>Weak airflow may affect one room, several rooms, or the whole home. Let us know where you notice the problem and whether the system is otherwise cooling normally. An HVAC inspection can help determine what is affecting airflow.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is my AC leaking water?</summary>
+    <p>Water around an AC system may come from several possible conditions. Tell us where you see the water, whether it is a small drip or pooling, and whether the system is still cooling. A photo can also be helpful if it can be taken safely.</p>
+  </details>
+  <details class="faq-item">
+    <summary>What should I do if there is ice on my AC unit or refrigerant line?</summary>
+    <p>Visible ice is a sign that the system should be checked. Let us know where you see the ice and whether the system is still producing cool air. Avoid opening or taking apart HVAC equipment yourself.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is my AC making a buzzing, rattling, grinding, or other strange noise?</summary>
+    <p>New, loud, or worsening HVAC noises should be evaluated. Tell us what the sound is like, where it seems to come from, and when it happens. A short video may help our team prepare for the visit when it can be recorded safely.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>Heating Repair</h2>
+  <details class="faq-item">
+    <summary>What should I do if my heat stops working?</summary>
+    <p>Contact us and let us know whether the heating system is completely off or running without warming the home. We may also ask what type of heating system you have, whether the entire home is affected, and when the problem began.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is my heating system running but my house is still cold?</summary>
+    <p>If your system is running but the home is not reaching the thermostat setting, it may need an inspection. Let us know whether some rooms are colder than others and whether the problem is new or recurring.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is my furnace or heating system making a strange noise?</summary>
+    <p>Unusual heating noises can indicate that the system needs attention. Tell us what the noise sounds like, where it seems to come from, and whether it occurs at startup, while running, or at shutdown.</p>
+  </details>
+  <details class="faq-item">
+    <summary>What should I do if I smell gas or hear a carbon monoxide alarm?</summary>
+    <p>Leave the home and contact 911 or your utility emergency line first. Do not remain inside trying to troubleshoot the HVAC system. Heating service can be addressed after the immediate safety situation has been handled.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>Heat Pumps &amp; Mini-Splits</h2>
+  <details class="faq-item">
+    <summary>Does Ventic HVAC install heat pumps?</summary>
+    <p>Yes. Ventic HVAC provides <a href="/#heat-pumps">heat pump planning and installation</a> for Massachusetts homes, including both ducted and ductless options.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Can a heat pump provide both heating and cooling?</summary>
+    <p>Yes. Heat pumps are designed to provide both heating and cooling, which can make them a practical year-round comfort option for many homes.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Are heat pumps good for Massachusetts homes?</summary>
+    <p>Heat pumps can be a good option for many Massachusetts homes. The right equipment depends on the home's layout, insulation, existing HVAC system, comfort goals, and other site conditions.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Are mini-splits good for homes without ductwork?</summary>
+    <p>They can be. Ductless mini-splits are often considered for bedrooms, additions, offices, basements, older homes, and other areas where adding traditional ductwork may not be practical.</p>
+  </details>
+  <details class="faq-item">
+    <summary>How does a ductless mini-split work?</summary>
+    <p>A ductless mini-split uses indoor units connected to an outdoor unit to provide heating, cooling, or both without requiring traditional central ductwork throughout the home.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Can I use a mini-split for only one room or area?</summary>
+    <p>Yes. A single-zone mini-split can be designed for one room or specific area, while multi-zone systems can serve multiple spaces.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Do I need ductwork for a heat pump?</summary>
+    <p>Not always. Heat pumps can be installed as ducted systems or as ductless mini-splits. The best approach depends on the home's existing system and layout.</p>
+  </details>
+  <details class="faq-item">
+    <summary>What size heat pump or mini-split does my home need?</summary>
+    <p>Home size is only one part of HVAC sizing. Final equipment sizing should be based on the home's actual conditions and proper load calculations rather than a quick guess based only on square footage.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>Installation &amp; Replacement</h2>
+  <details class="faq-item">
+    <summary>Should I repair or replace my air conditioner?</summary>
+    <p>The best choice depends on the condition and age of the equipment, repair needs, comfort issues, efficiency, and your long-term goals. A technician can inspect the system and explain the available options before you decide.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Do I need to replace my HVAC system just because it is old?</summary>
+    <p>No. Age alone does not automatically mean replacement is necessary. System condition, reliability, repair history, comfort, efficiency, and your plans for the home should all be considered.</p>
+  </details>
+  <details class="faq-item">
+    <summary>What should I know before replacing my HVAC system?</summary>
+    <p>It helps to know your current system type, approximate age, home layout, comfort concerns, and project timeline. An onsite evaluation allows the technician to review the equipment, access, electrical considerations, and other installation conditions.</p>
+  </details>
+  <details class="faq-item">
+    <summary>How do you determine the right HVAC system size?</summary>
+    <p>Final sizing should be determined using the home's actual conditions and appropriate HVAC load calculations. Oversized or undersized equipment can affect comfort and performance, so professional sizing is important.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Will I receive an estimate before HVAC installation work begins?</summary>
+    <p>Yes. Ventic HVAC provides written estimates so you can review the proposed scope before moving forward with installation work.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Do HVAC installations require permits?</summary>
+    <p>Permit requirements vary by town and project scope. The applicable requirements should be reviewed as part of the installation planning and final estimate.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>HVAC Maintenance</h2>
+  <details class="faq-item">
+    <summary>How often should I schedule HVAC maintenance?</summary>
+    <p>Regular seasonal maintenance can help keep your heating and cooling equipment inspected and operating as intended. The right schedule depends on your system and how it is used.</p>
+  </details>
+  <details class="faq-item">
+    <summary>How do I know whether I need maintenance or an HVAC repair?</summary>
+    <p>If your system is working normally and you want a seasonal check, maintenance may be appropriate. If you are experiencing active problems such as no cooling, no heat, leaks, unusual noises, or poor performance, let us know so we can determine the appropriate service visit.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Can HVAC maintenance prevent every breakdown?</summary>
+    <p>No maintenance plan can guarantee that equipment will never break down. Regular maintenance can help identify developing issues, support system performance, and provide an opportunity to address concerns before they become larger problems.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Why is my energy bill higher than usual?</summary>
+    <p>Higher electric, gas, or heating bills can have several causes, and HVAC performance may be one factor. If your system is running longer than usual or your home is no longer comfortable, an inspection or maintenance visit can help evaluate the equipment.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>Appointments &amp; Estimates</h2>
+  <details class="faq-item">
+    <summary>Can I request an HVAC appointment online?</summary>
+    <p>Yes. You can submit a service request through the <a href="/#book">Ventic HVAC website</a> or contact Ventic HVAC directly to request an appointment.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Do you offer same-day HVAC service?</summary>
+    <p>Same-day repair availability may be possible depending on technician availability, location, and the type of service needed. Availability cannot be guaranteed.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Can I get an exact HVAC repair price over the phone?</summary>
+    <p>HVAC problems can have similar symptoms but different causes. An inspection may be needed before the technician can confirm the issue and provide an accurate estimate.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Can you give me a ballpark cost before an HVAC installation?</summary>
+    <p>We can discuss general project expectations when appropriate, but final installation pricing depends on the equipment, home layout, system size, access, electrical needs, permits, materials, and other site conditions. A written estimate follows the proper evaluation.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>Mass Save &amp; Rebates</h2>
+  <details class="faq-item">
+    <summary>Does Ventic HVAC help with Mass Save heat pump rebates?</summary>
+    <p>Ventic HVAC can help homeowners understand potential rebate requirements, qualified equipment considerations, and the information needed for a rebate-ready project. You can also review the <a href="/#rebates">Mass Save guidance section</a> on the site.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Does Ventic HVAC guarantee that I will receive a Mass Save rebate?</summary>
+    <p>No. Final eligibility and approval are determined by the Mass Save program administrators. Ventic HVAC can provide guidance, but rebate approval cannot be guaranteed.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Should I check Mass Save eligibility before choosing a heat pump?</summary>
+    <p>If rebates or incentives are important to your project, it is helpful to consider eligibility and equipment requirements during the planning stage rather than after the system has already been selected.</p>
+  </details>
+</div>
+<div class="faq-group">
+  <h2>Emergency HVAC</h2>
+  <details class="faq-item">
+    <summary>What HVAC problems should be treated as a safety emergency?</summary>
+    <p>Gas odors, a carbon monoxide alarm, visible smoke, sparks, or a suspected electrical fire should be treated as safety emergencies.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Should I call Ventic HVAC first if I smell gas or suspect a fire?</summary>
+    <p>No. Leave the home and contact 911 or your utility emergency line first. HVAC service can be addressed after the immediate safety situation has been handled.</p>
+  </details>
+  <details class="faq-item">
+    <summary>Can a water leak around HVAC equipment be an emergency?</summary>
+    <p>It may require urgent attention if water is pooling, damaging the home, or is near electrical equipment. Do not touch wiring or open HVAC panels. Let us know what you can safely observe so the situation can be handled appropriately.</p>
+  </details>
+</div>
+<div class="article-bottom-cta faq-bottom-cta">
+  <h2>Still have an HVAC question?</h2>
+  <p>Contact Ventic HVAC to tell us what is happening with your heating or cooling system. We can help determine the appropriate next step and schedule service when needed.</p>
+  <a class="button primary" href="/#book">Request Service</a>
+</div>`
   }
 ];
