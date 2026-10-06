@@ -421,5 +421,346 @@ window.HVAC_ARTICLES = [
   <p>Contact Ventic HVAC to tell us what is happening with your heating or cooling system. We can help determine the appropriate next step and schedule service when needed.</p>
   <a class="button primary" href="/#book">Request Service</a>
 </div>`
+  },
+  {
+    "title": "Heat Pump Not Heating? What Massachusetts Homeowners Should Check",
+    "slug": "heat-pump-not-heating",
+    "metaTitle": "Heat Pump Not Heating? What to Check | Ventic HVAC",
+    "metaDescription": "Is your heat pump running but not heating? Learn safe checks, common causes, and when to request heat pump service from Ventic HVAC.",
+    "primaryKeyword": "heat pump not heating",
+    "category": "Heat Pump Repair",
+    "excerpt": "When a heat pump is running but the house is still cold, the cause may be as simple as a setting or filter, or it may require a professional diagnosis. Here is what to check safely before requesting service.",
+    "path": "blog/heat-pump-not-heating/",
+    "ctaTitle": "Get help with a heat pump that is not heating",
+    "ctaText": "If your heat pump is not keeping the home comfortable after these safe checks, Ventic HVAC can inspect the system, identify the cause, and explain the next step.",
+    "ctaButtonText": "Request Heat Pump Service",
+    "ctaLink": "/#book",
+    "html": `<h1>Heat Pump Not Heating? What Massachusetts Homeowners Should Check</h1>
+<p>A heat pump can run for a long time in cold weather, so it is not always obvious when there is a problem. The key question is whether the system is actually raising the indoor temperature and keeping the home comfortable. If it is running but the house stays cold, start with a few safe checks before requesting service.</p>
+<p>Do not open electrical panels, remove equipment covers, or attempt to add refrigerant. Heat pumps are complex systems, and a small symptom can have several possible causes.</p>
+<h2>First, confirm the thermostat settings</h2>
+<p>Set the thermostat to <strong>HEAT</strong>, not AUTO, and set the temperature several degrees above the current room temperature. A heat pump may deliver air that feels less hot than a furnace, but it should still steadily warm the home.</p>
+<ul>
+<li>Make sure the thermostat display is on and responsive.</li>
+<li>Check that the fan is set to AUTO unless your thermostat instructions say otherwise.</li>
+<li>Replace weak thermostat batteries if applicable.</li>
+<li>Give the system time to respond before changing settings again.</li>
+</ul>
+<h2>Check the air filter and airflow</h2>
+<p>A dirty filter can restrict airflow and make a heat pump work harder without properly heating the home. Replace a visibly dirty filter with the correct size and type for your system. Also make sure supply vents and return grilles are open and not blocked by furniture, rugs, or boxes.</p>
+<p>If only one part of the home is cold, the problem may be related to airflow, ductwork, zoning, insulation, or the layout of the home. Read more about <a href="/article.html?slug=ductwork-inspection-before-heat-pump">ductwork before a heat pump upgrade</a> if the issue has been ongoing.</p>
+<h2>Look at the outdoor unit from a safe distance</h2>
+<p>During a heating call, the outdoor unit should normally operate. You may hear it and see the fan running. Frost can be normal in winter, and the system may periodically enter a defrost cycle. Heavy ice that does not clear, repeated shutdowns, or a unit that is completely silent can indicate a problem.</p>
+<p>Do not chip ice, pour hot water on the equipment, or block airflow around the unit. Keep snow, leaves, and other debris clear from the area around it.</p>
+<h2>Common reasons a heat pump is not heating</h2>
+<p>A technician needs to inspect the system to confirm the cause, but common possibilities include:</p>
+<ul>
+<li>A thermostat, control, or sensor issue.</li>
+<li>A clogged filter or restricted airflow.</li>
+<li>An outdoor unit that is not operating correctly.</li>
+<li>A defrost control or drainage problem.</li>
+<li>A blower, capacitor, motor, or electrical component issue.</li>
+<li>A refrigerant-related issue that requires professional diagnosis.</li>
+<li>A system that needs maintenance, repair, or a design review for the home.</li>
+</ul>
+<h2>When should you request service right away?</h2>
+<p>Turn the system off and request help promptly if you notice a burning smell, smoke, sparking, loud grinding or screeching, a breaker that trips again after one reset, water near electrical components, or heavy ice that does not clear.</p>
+<p>If you smell gas, hear a carbon monoxide alarm, or suspect a fire, leave the home and call 911 or your utility emergency line first. Do not remain inside to troubleshoot the HVAC equipment.</p>
+<h2>What to share when you request an appointment</h2>
+<p>A useful service request includes the thermostat setting, current indoor temperature, when the issue began, whether the outdoor unit is running, and whether the whole home or only certain rooms are affected. A photo of the thermostat or a short video of an unusual sound can also help when it can be taken safely.</p>
+<p><strong>Ventic HVAC serves homeowners in its Massachusetts service area. An on-site evaluation may be needed before the cause, repair recommendation, and written estimate can be confirmed.</strong></p>`
+  },
+  {
+    "title": "Why Is My Furnace Running but My House Is Still Cold?",
+    "slug": "furnace-running-house-still-cold",
+    "metaTitle": "Furnace Running but House Still Cold? | Ventic HVAC",
+    "metaDescription": "If your furnace is running but your house stays cold, learn safe checks, common causes, and when to request heating repair from Ventic HVAC.",
+    "primaryKeyword": "furnace running but house still cold",
+    "category": "Heating Repair",
+    "excerpt": "A furnace that runs without bringing the home to the thermostat setting can point to airflow, thermostat, fuel, equipment, or heat-loss issues. Start with safe observations, then schedule an inspection when needed.",
+    "path": "blog/furnace-running-house-still-cold/",
+    "ctaTitle": "Get help when your furnace is running but the home is cold",
+    "ctaText": "Ventic HVAC can inspect your heating system, identify why the home is not warming properly, and explain the recommended next step.",
+    "ctaButtonText": "Request Heating Service",
+    "ctaLink": "/#book",
+    "html": `<h1>Why Is My Furnace Running but My House Is Still Cold?</h1>
+<p>If the furnace is running but the house is not reaching the thermostat setting, the problem is not always a complete system failure. It may be a setting, airflow restriction, distribution issue, or equipment condition that needs an on-site diagnosis.</p>
+<p>Begin with simple checks that are safe to perform. Avoid opening the furnace cabinet, bypassing safety switches, or repeatedly resetting a breaker.</p>
+<h2>Check whether the thermostat is calling for heat</h2>
+<p>Confirm that the thermostat is set to HEAT and the target temperature is above the current room temperature. If the thermostat screen is blank, dim, or behaving inconsistently, replace the batteries if your model uses them.</p>
+<p>Give the system several minutes to respond. Repeatedly switching it on and off can make it harder to tell what the system is doing.</p>
+<h2>Check airflow throughout the home</h2>
+<p>Look at more than one room. Is every room cold, or are certain rooms noticeably colder? Make sure supply vents are open and returns are clear. A clogged filter can restrict airflow and reduce heating performance, so replace it if it is visibly dirty.</p>
+<p>Uneven comfort can also point to ductwork, return-air, insulation, or zoning issues. If this has been a long-term problem, a system review may be more useful than a one-time repair.</p>
+<h2>Notice the furnace cycle</h2>
+<p>Pay attention to what the system does without touching internal components. Does it run continuously? Start and stop every few minutes? Blow air that feels cool? Make a new sound at startup or shutdown? These observations can help a technician narrow down the issue.</p>
+<p>A system that starts and stops repeatedly may be short cycling. That can be caused by several conditions and should be professionally evaluated rather than ignored.</p>
+<h2>Common reasons a furnace runs but does not heat the home well</h2>
+<p>The final cause requires inspection, but common possibilities include:</p>
+<ul>
+<li>A dirty filter or restricted airflow.</li>
+<li>A thermostat or control issue.</li>
+<li>A blower or motor problem.</li>
+<li>A burner, ignition, flame-sensing, or safety-control issue.</li>
+<li>A ductwork or return-air problem.</li>
+<li>Heat loss, insulation, or room-balance concerns.</li>
+<li>Equipment that is no longer performing reliably for the home.</li>
+</ul>
+<h2>Safety comes first</h2>
+<p>Leave the home and call 911 or your utility emergency line immediately if you smell gas, hear a carbon monoxide alarm, see smoke or sparks, or suspect a fire. Do not try to diagnose the furnace before handling the immediate safety concern.</p>
+<p>Massachusetts homeowners should keep working carbon monoxide alarms and have fuel-burning heating equipment inspected regularly. The state&apos;s <a href="https://www.mass.gov/info-details/winter-home-heating-safety" target="_blank" rel="noopener noreferrer">winter heating safety guidance</a> is a useful additional resource.</p>
+<h2>When to request heating repair</h2>
+<p>Request service if the home cannot reach the thermostat setting, the system is making loud or worsening noises, a breaker trips again after one reset, or you see water, soot, or another unusual condition near the equipment.</p>
+<p><strong>Ventic HVAC can inspect active heating issues and provide a clear next-step recommendation after evaluating the system in person.</strong></p>`
+  },
+  {
+    "title": "Heat Pump Defrost Mode: What Is Normal and When to Call for Service",
+    "slug": "heat-pump-defrost-mode",
+    "metaTitle": "Heat Pump Defrost Mode: What Is Normal? | Ventic HVAC",
+    "metaDescription": "Learn what normal heat pump defrost mode looks like, why steam and frost can happen, and when ice or repeated defrost cycles need HVAC service.",
+    "primaryKeyword": "heat pump defrost mode",
+    "category": "Heat Pump Repair",
+    "excerpt": "Steam, frost, and temporary changes in airflow can be normal during a heat pump defrost cycle. Learn the difference between normal winter operation and signs that call for service.",
+    "path": "blog/heat-pump-defrost-mode/",
+    "ctaTitle": "Concerned about your heat pump in cold weather?",
+    "ctaText": "If ice is building up, defrost cycles seem constant, or the home is not staying warm, Ventic HVAC can inspect the system and identify the cause.",
+    "ctaButtonText": "Request Heat Pump Service",
+    "ctaLink": "/#book",
+    "html": `<h1>Heat Pump Defrost Mode: What Is Normal and When to Call for Service</h1>
+<p>In cold, damp Massachusetts weather, frost can form on a heat pump&apos;s outdoor coil. That is why heat pumps use a defrost cycle. During defrost, the system temporarily changes how it operates to clear the frost and protect performance.</p>
+<p>Seeing steam or hearing a temporary change in the system does not automatically mean something is wrong. The important part is knowing what normal defrost looks like and when ice or performance problems need attention.</p>
+<h2>What happens during heat pump defrost mode?</h2>
+<p>During a normal defrost cycle, the outdoor unit may briefly change operation to melt frost from the outdoor coil. You may notice:</p>
+<ul>
+<li>Steam rising from the outdoor unit.</li>
+<li>Water draining beneath the unit.</li>
+<li>The outdoor fan slowing or stopping temporarily.</li>
+<li>A temporary change in indoor airflow or temperature.</li>
+<li>A short pause before normal heating resumes.</li>
+</ul>
+<p>These signs can be normal. The exact behavior and cycle length vary by equipment model and outdoor conditions.</p>
+<h2>What is not normal?</h2>
+<p>Request service if you see thick ice that covers the coil or cabinet, ice that does not clear after the system has had time to defrost, repeated defrost cycles with poor heating, or a unit that shuts down and will not recover.</p>
+<p>Other concerns include loud grinding or buzzing, a breaker that trips again after one reset, water backing up near the equipment, or indoor temperatures that continue to fall.</p>
+<h2>Why can a heat pump freeze up?</h2>
+<p>Frost itself can be normal. Persistent ice can be associated with several conditions that need professional diagnosis, including:</p>
+<ul>
+<li>Restricted airflow around the outdoor unit.</li>
+<li>A drainage issue that allows melted water to refreeze.</li>
+<li>A defrost control, sensor, or electrical issue.</li>
+<li>A fan or motor problem.</li>
+<li>A refrigerant-related issue.</li>
+<li>Other equipment conditions affecting winter operation.</li>
+</ul>
+<p>Do not try to chip away ice or pour hot water on the outdoor unit. That can damage fins, wiring, or components and may create a refreezing problem.</p>
+<h2>How to help your heat pump operate normally</h2>
+<p>Keep snow, leaves, and other debris clear from around the outdoor unit while allowing safe airflow. Do not stack items against it or cover it tightly. A professionally designed snow hood or cover may be appropriate in some installations, but it should not restrict airflow.</p>
+<p>Inside the home, keep filters clean and supply and return vents unobstructed. Proper airflow supports overall system performance during heating season.</p>
+<h2>When should you call for service?</h2>
+<p>Call if the system is not maintaining comfort, the outdoor unit stays heavily iced, defrost mode seems frequent or endless, or you notice new electrical or mechanical warning signs. If your heat pump is running but still not heating the home, review our guide on <a href="/blog/heat-pump-not-heating/">what to check when a heat pump is not heating</a>.</p>
+<p><strong>A technician can inspect the system, confirm whether the behavior is normal, and explain any repair or maintenance recommendation based on the actual equipment condition.</strong></p>`
+  },
+  {
+    "title": "Why Is My Heating System Short Cycling?",
+    "slug": "heating-system-short-cycling",
+    "metaTitle": "Why Is My Heating System Short Cycling? | Ventic HVAC",
+    "metaDescription": "Learn why a heating system may start and stop repeatedly, what homeowners can check safely, and when to request heating repair.",
+    "primaryKeyword": "heating system short cycling",
+    "category": "Heating Repair",
+    "excerpt": "A heating system that starts and stops every few minutes may be short cycling. Learn the safe checks to make and when the pattern needs professional attention.",
+    "path": "blog/heating-system-short-cycling/",
+    "ctaTitle": "Get help with a heating system that keeps cycling",
+    "ctaText": "Ventic HVAC can inspect the heating system, identify why it is cycling, and explain the appropriate repair or maintenance recommendation.",
+    "ctaButtonText": "Request Heating Service",
+    "ctaLink": "/#book",
+    "html": `<h1>Why Is My Heating System Short Cycling?</h1>
+<p>Short cycling means a heating system starts, runs for a short time, shuts off, and then starts again sooner than expected. It can make the home less comfortable, increase wear on equipment, and sometimes point to an issue that should be inspected.</p>
+<h2>What can you check safely?</h2>
+<p>First, confirm the thermostat is set to HEAT and several degrees above the current room temperature. Replace weak thermostat batteries if applicable. Then check the air filter and make sure supply vents and return grilles are not blocked.</p>
+<p>A very dirty filter can restrict airflow. If it is visibly dirty, replace it with the correct size and type for your system. Do not remove furnace panels or bypass any safety switches.</p>
+<h2>Why short cycling can happen</h2>
+<p>The exact cause needs an on-site inspection. Common possibilities include a thermostat or control issue, restricted airflow, a dirty filter, a blower concern, a safety-control issue, or equipment that is not operating correctly for the home.</p>
+<p>System sizing and airflow design can matter too. A heating system should be evaluated as part of the whole home, including ductwork, return air, and room comfort.</p>
+<h2>When should you request service?</h2>
+<p>Request heating service if the cycling is new, frequent, paired with poor heat, or accompanied by a burning smell, unusual noise, a recurring breaker trip, soot, or water near the equipment.</p>
+<p>If you smell gas, hear a carbon monoxide alarm, see smoke or sparks, or suspect a fire, leave the home and contact 911 or your utility emergency line first.</p>
+<p>For related symptoms, read our guide to a <a href="/blog/furnace-running-house-still-cold/">furnace that runs while the home stays cold</a>.</p>`
+  },
+  {
+    "title": "Uneven Heating: Why Some Rooms Stay Cold",
+    "slug": "uneven-heating-cold-rooms",
+    "metaTitle": "Uneven Heating: Why Some Rooms Stay Cold | Ventic HVAC",
+    "metaDescription": "Find out why some rooms stay cold while others are comfortable, what homeowners can check safely, and when uneven heating needs HVAC service.",
+    "primaryKeyword": "uneven heating cold rooms",
+    "category": "Heating Repair",
+    "excerpt": "Cold bedrooms, a chilly basement, or one room that never catches up can have several causes. Learn how to observe the problem and when a heating-system review makes sense.",
+    "path": "blog/uneven-heating-cold-rooms/",
+    "ctaTitle": "Get help with rooms that stay cold",
+    "ctaText": "Ventic HVAC can evaluate heating performance, airflow, and comfort concerns to identify the most useful next step.",
+    "ctaButtonText": "Request a Comfort Review",
+    "ctaLink": "/#book",
+    "html": `<h1>Uneven Heating: Why Some Rooms Stay Cold</h1>
+<p>If the thermostat says the home is warm but a bedroom, addition, basement, or upstairs area stays cold, the issue may be more than the thermostat setting. Uneven heating can come from airflow, ductwork, insulation, equipment performance, or the layout of the home.</p>
+<h2>Start by noticing the pattern</h2>
+<p>Before changing settings, identify where the problem occurs. Is one room cold all day, only at night, or only during very cold weather? Are doors usually closed? Is airflow weak at the supply vents? These details help determine whether the issue is isolated or affects the whole system.</p>
+<h2>Safe checks homeowners can make</h2>
+<ul>
+<li>Confirm supply vents are open and not covered by furniture or rugs.</li>
+<li>Keep return-air grilles clear.</li>
+<li>Replace a visibly dirty HVAC filter.</li>
+<li>Check window coverings and obvious drafts around the cold room.</li>
+<li>Make sure the thermostat is set correctly and not affected by a nearby heat source.</li>
+</ul>
+<h2>Common reasons rooms heat unevenly</h2>
+<p>Common causes can include restricted airflow, undersized or leaky ductwork, too little return air, a room that loses heat faster than the rest of the house, thermostat placement, or a system that needs repair or balancing. Additions, finished attics, and older rooms with limited duct access are especially common problem areas.</p>
+<p>For some homes, a targeted ductless solution may make more sense than forcing a central system to solve every room. Learn how <a href="/article.html?slug=ductless-zoning-guide">ductless zoning works</a> before deciding on an approach.</p>
+<h2>When to request a professional review</h2>
+<p>Request help when the issue is persistent, several rooms are affected, the system runs excessively, or comfort problems continue after basic airflow checks. A technician can evaluate the system and explain whether the next step is repair, ductwork improvement, balancing, insulation coordination, or a zoning option.</p>`
+  },
+  {
+    "title": "What to Do When Your Thermostat Is Not Working",
+    "slug": "thermostat-not-working",
+    "metaTitle": "Thermostat Is Not Working? What to Check | Ventic HVAC",
+    "metaDescription": "Learn safe thermostat checks for a blank screen, incorrect temperature, or HVAC system that will not respond, and when to request service.",
+    "primaryKeyword": "thermostat not working",
+    "category": "Heating & Cooling",
+    "excerpt": "A thermostat issue can look like a heating or cooling failure. Here are safe checks for a blank display, wrong settings, or a system that will not respond.",
+    "path": "blog/thermostat-not-working/",
+    "ctaTitle": "Need help with a thermostat or HVAC response problem?",
+    "ctaText": "Ventic HVAC can determine whether the issue is the thermostat, system controls, or another HVAC condition that needs service.",
+    "ctaButtonText": "Request HVAC Service",
+    "ctaLink": "/#book",
+    "html": `<h1>What to Do When Your Thermostat Is Not Working</h1>
+<p>A blank display, incorrect temperature reading, or HVAC system that will not respond can make it seem like the equipment has failed. Sometimes the thermostat is the issue; other times it is only the place where a larger heating or cooling problem becomes visible.</p>
+<h2>Check the basic settings first</h2>
+<p>Make sure the thermostat is set to HEAT or COOL for the season, and set the target temperature above or below the current room temperature as appropriate. Check whether the fan is set to AUTO. If the screen is dim, blank, or unreliable and your model uses batteries, replace them.</p>
+<h2>Look for simple causes</h2>
+<ul>
+<li>Confirm the thermostat has power and is securely attached to its base.</li>
+<li>Check the relevant breaker once if you are comfortable doing so.</li>
+<li>Make sure nearby windows, lamps, sunlight, or vents are not misleading the thermostat.</li>
+<li>Allow a few minutes after a setting change before changing it again.</li>
+</ul>
+<p>Do not open electrical panels or try to rewire a thermostat unless you are qualified to do that work.</p>
+<h2>When the thermostat is not the real problem</h2>
+<p>If the thermostat appears to be calling for heating or cooling but the system does not respond, the issue may involve the equipment, wiring, controls, safety switches, or power supply. A professional diagnostic visit is the safest way to identify the actual cause.</p>
+<h2>When to call for service</h2>
+<p>Request service if the thermostat repeatedly loses power, the system does not respond after safe checks, the breaker trips again after one reset, or you notice burning smells, unusual noises, water near equipment, or poor heating or cooling performance.</p>
+<p>For heat-pump-specific controls, see our guide on <a href="/article.html?slug=smart-thermostat-heat-pump">smart thermostats and heat pumps</a>.</p>`
+  },
+  {
+    "title": "How Often Should You Change Your HVAC Filter?",
+    "slug": "how-often-change-hvac-filter",
+    "metaTitle": "How Often Should You Change Your HVAC Filter? | Ventic HVAC",
+    "metaDescription": "Learn what affects HVAC filter replacement timing, how to choose the right filter, and why a dirty filter can affect comfort and system performance.",
+    "primaryKeyword": "how often change HVAC filter",
+    "category": "HVAC Maintenance",
+    "excerpt": "Filter replacement timing depends on the home, filter type, pets, allergies, and how often the system runs. Learn how to check it without guessing.",
+    "path": "blog/how-often-change-hvac-filter/",
+    "ctaTitle": "Keep your HVAC system maintained",
+    "ctaText": "If your system is running longer, airflow is weak, or the home is less comfortable, Ventic HVAC can help determine whether maintenance or repair is the right next step.",
+    "ctaButtonText": "Request Maintenance",
+    "ctaLink": "/#book",
+    "html": `<h1>How Often Should You Change Your HVAC Filter?</h1>
+<p>There is no one replacement schedule that fits every home. Filter type, system use, pets, occupants, allergies, construction dust, and outdoor conditions can all change how quickly a filter loads up.</p>
+<h2>A practical way to check</h2>
+<p>Start by checking the filter monthly when the system is in regular use. If it looks gray, matted, or visibly covered in dust, it is time to replace it. Follow the equipment manufacturer&apos;s guidance for the correct size and filter rating.</p>
+<h2>Why filter condition matters</h2>
+<p>A dirty filter can restrict airflow. That may make the system run longer, reduce comfort, contribute to hot or cold rooms, and add strain to components. Replacing the filter is simple preventative care, but it will not fix every HVAC problem.</p>
+<h2>Choose the right filter, not just the highest rating</h2>
+<p>A more restrictive filter is not automatically better for every system. The correct option balances air quality needs with the airflow requirements of the equipment. If you are unsure, use the manufacturer recommendation or ask during a maintenance visit.</p>
+<h2>When a new filter does not solve the issue</h2>
+<p>Request service if airflow remains weak after the correct filter is installed, the system is noisy, the home is still uncomfortable, or the equipment is cycling unusually. Those symptoms may point to a different airflow or equipment issue.</p>
+<p>Regular seasonal service can help identify developing concerns before they become larger repairs. See what an <a href="/article.html?slug=hvac-maintenance-plan-benefits">HVAC maintenance plan should include</a>.</p>`
+  },
+  {
+    "title": "2026 Mass Save Heat Pump Rebates: What to Prepare Before You Apply",
+    "slug": "mass-save-heat-pump-rebates-2026",
+    "metaTitle": "2026 Mass Save Heat Pump Rebates: Application Checklist | Ventic HVAC",
+    "metaDescription": "A practical 2026 Mass Save heat pump rebate checklist for Massachusetts homeowners, including project planning, documents, equipment details, and eligibility questions.",
+    "primaryKeyword": "2026 Mass Save heat pump rebates",
+    "category": "Mass Save & Rebates",
+    "excerpt": "A rebate-ready heat pump project starts before installation. Use this practical checklist to understand the information and documentation that may be needed for a 2026 Mass Save application.",
+    "path": "blog/mass-save-heat-pump-rebates-2026/",
+    "ctaTitle": "Plan a rebate-ready heat pump project",
+    "ctaText": "Ventic HVAC can help you understand project requirements and prepare a heat pump plan that supports an informed rebate application. Final eligibility is determined by Mass Save.",
+    "ctaButtonText": "Request a Heat Pump Consultation",
+    "ctaLink": "/#book",
+    "html": `<h1>2026 Mass Save Heat Pump Rebates: What to Prepare Before You Apply</h1>
+<p>Mass Save incentives can be an important part of a Massachusetts heat pump project, but the right time to think about them is before equipment is selected and installed. Eligibility, equipment requirements, contractor participation, and documentation can affect the application.</p>
+<p>This is a planning checklist, not a guarantee of rebate approval. Always confirm current requirements directly with <a href="https://www.masssave.com/residential/rebates-offers-services/heating-and-cooling/heat-pumps/air-source-heat-pumps" target="_blank" rel="noopener noreferrer">Mass Save&apos;s current heat pump guidance</a>.</p>
+<h2>Start with the project type</h2>
+<p>Determine whether the proposal is for whole-home, partial-home, or supplemental heating and cooling. The existing heating system, fuel type, home layout, and how the heat pump will be used can affect which program path applies.</p>
+<h2>Confirm the equipment and installer requirements</h2>
+<p>Before moving forward, confirm that the proposed equipment and installation approach meet the applicable program requirements. Do not assume a heat pump is eligible simply because it is new or high-efficiency.</p>
+<h2>Prepare useful documentation</h2>
+<p>Requirements can change, but homeowners commonly need account information, equipment details, invoices, and other supporting documents. For 2026 applications, Mass Save notes that clear photos of outdoor-unit nameplates showing the serial number are required beginning October 1, 2026.</p>
+<h2>Keep your project records together</h2>
+<ul>
+<li>Written proposal and final invoice.</li>
+<li>Equipment model and serial information.</li>
+<li>Photos requested by the program.</li>
+<li>Relevant utility-account information.</li>
+<li>Any required program forms or confirmations.</li>
+</ul>
+<h2>Do not wait until after installation to ask questions</h2>
+<p>Rebate requirements should be part of the initial conversation. Ventic HVAC can provide project guidance, but Mass Save administrators determine final eligibility and approval. You can also review our broader <a href="/article.html?slug=mass-save-heat-pump-guidance">Mass Save heat pump guidance</a>.</p>`
+  },
+  {
+    "title": "Massachusetts Heating Safety Checklist for Homeowners",
+    "slug": "massachusetts-heating-safety-checklist",
+    "metaTitle": "Massachusetts Heating Safety Checklist | Ventic HVAC",
+    "metaDescription": "Use this Massachusetts home heating safety checklist for carbon monoxide alarms, vents, filters, annual service, and emergency warning signs.",
+    "primaryKeyword": "Massachusetts heating safety checklist",
+    "category": "Heating Safety",
+    "excerpt": "Before and during heating season, a few simple safety checks can help homeowners recognize when to request service and when to leave the home and call emergency services.",
+    "path": "blog/massachusetts-heating-safety-checklist/",
+    "ctaTitle": "Schedule a heating-system check",
+    "ctaText": "Ventic HVAC can inspect active heating concerns and help homeowners understand the appropriate next step before cold-weather problems become larger issues.",
+    "ctaButtonText": "Request Heating Service",
+    "ctaLink": "/#book",
+    "html": `<h1>Massachusetts Heating Safety Checklist for Homeowners</h1>
+<p>Heating season is the right time to review a few basic safety practices. This checklist is not a substitute for professional service or emergency response, but it can help you recognize concerns early and act appropriately.</p>
+<h2>Keep smoke and carbon monoxide alarms working</h2>
+<p>Make sure alarms are installed and tested according to manufacturer instructions and local requirements. Carbon monoxide is colorless and odorless, and fuel-burning equipment should be inspected regularly. Massachusetts publishes detailed <a href="https://www.mass.gov/info-details/carbon-monoxide-co-safety" target="_blank" rel="noopener noreferrer">carbon monoxide safety guidance</a> for homeowners.</p>
+<h2>Keep vents and equipment areas clear</h2>
+<p>Do not block supply vents, return grilles, appliance exhausts, or outdoor heat-pump airflow. Keep combustible storage away from heating equipment. After snow or storms, visually check outdoor equipment and vents from a safe distance.</p>
+<h2>Replace dirty filters and schedule regular service</h2>
+<p>Check filters during heating season and replace them when dirty. Regular professional maintenance can help identify equipment concerns, but it cannot guarantee that a system will never break down.</p>
+<h2>Know the emergency warning signs</h2>
+<p>Leave the home and call 911 or your utility emergency line if you smell gas, hear a carbon monoxide alarm, see smoke or sparks, or suspect a fire. Do not use an oven or grill to heat the home, and do not remain inside to troubleshoot a possible gas or carbon-monoxide emergency.</p>
+<h2>Call an HVAC professional for equipment concerns</h2>
+<p>Request service for no heat, persistent cold rooms, repeated breaker trips, new loud noises, soot, water near equipment, or a system that will not maintain the thermostat setting. Read our guide for a <a href="/blog/furnace-running-house-still-cold/">furnace that runs while the house remains cold</a> for safe observations to share.</p>`
+  },
+  {
+    "title": "Why Is My HVAC System Making a Loud Noise?",
+    "slug": "hvac-loud-noises",
+    "metaTitle": "Why Is My HVAC System Making a Loud Noise? | Ventic HVAC",
+    "metaDescription": "Learn what banging, rattling, buzzing, grinding, and screeching HVAC noises can mean, when to turn the system off, and when to request service.",
+    "primaryKeyword": "HVAC system making loud noise",
+    "category": "HVAC Repair",
+    "excerpt": "New or worsening HVAC noises should not be ignored. Learn what details to observe safely and when a loud sound needs prompt service.",
+    "path": "blog/hvac-loud-noises/",
+    "ctaTitle": "Get help with a noisy HVAC system",
+    "ctaText": "Ventic HVAC can inspect new or worsening HVAC noises, identify the likely cause, and explain the recommended next step.",
+    "ctaButtonText": "Request HVAC Service",
+    "ctaLink": "/#book",
+    "html": `<h1>Why Is My HVAC System Making a Loud Noise?</h1>
+<p>HVAC equipment makes normal operating sounds, but a new, loud, or worsening noise can be a sign that the system needs attention. The sound alone does not confirm the cause, but the pattern can help a technician diagnose the issue more efficiently.</p>
+<h2>What to observe safely</h2>
+<p>Without opening any equipment panels, note where the sound seems to come from, what it sounds like, and when it happens. Does it occur at startup, while the system is running, at shutdown, or only during heating or cooling?</p>
+<h2>Common sound descriptions</h2>
+<ul>
+<li><strong>Rattling:</strong> can be caused by loose panels, ductwork, or other components.</li>
+<li><strong>Buzzing:</strong> can involve electrical or mechanical conditions and should be evaluated if it is new or loud.</li>
+<li><strong>Grinding or screeching:</strong> may indicate a motor, bearing, or moving-part concern.</li>
+<li><strong>Banging:</strong> can come from ducts, equipment startup, or mechanical issues.</li>
+</ul>
+<p>Different systems can make similar sounds for different reasons, so avoid assuming the repair from the sound alone.</p>
+<h2>When should you turn the system off?</h2>
+<p>Turn the system off and request service promptly if the noise is paired with a burning smell, smoke, sparks, repeated breaker trips, water near electrical components, or severe vibration. If there is a suspected fire, gas leak, or carbon monoxide emergency, leave the home and call 911 or your utility emergency line first.</p>
+<h2>What to include in a service request</h2>
+<p>Describe the sound, where it seems to come from, when it occurs, and whether the home is still heating or cooling. A short video can help when it can be taken safely. If the system is also cycling frequently, see our guide to <a href="/blog/heating-system-short-cycling/">heating-system short cycling</a>.</p>
+<p><strong>A professional inspection is the right way to identify the cause and determine whether the system needs a repair, maintenance, or a broader performance review.</strong></p>`
   }
 ];

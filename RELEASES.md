@@ -2,6 +2,13 @@
 
 This file records production releases for the public Ventic HVAC website. Every release is also marked with a matching Git tag, allowing a safe rollback to a known version.
 
+## v1.2.0 - 2026-10-06
+
+- Published ten homeowner-focused HVAC articles with clean, indexable URLs.
+- Added heating repair, heat pump repair, maintenance, safety, comfort, and Mass Save 2026 content.
+- Added clean route pages, canonical URLs, Open Graph URLs, sitemap entries, and booking CTAs for every new article.
+- Updated the Learning Center overview to accurately describe the 31-article-and-FAQ library.
+
 ## v1.1.0 - 2026-08-21
 
 - Added customer-facing HVAC FAQ page with mobile-friendly accordions and relevant internal links.
