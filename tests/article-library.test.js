@@ -69,7 +69,7 @@ for (const expected of expectedArticles) {
   assert.ok(article.metaTitle, `${expected.slug} needs a title tag`);
   assert.ok(article.metaDescription, `${expected.slug} needs a meta description`);
   assert.equal(article.path, `${expected.route.replace("index.html", "")}`);
-  assert.equal(article.ctaLink, "/#book");
+  assert.equal(article.ctaLink, "https://ventic.34-41-157-23.nip.io/request?source=Website");
   assert.match(article.html, /<h1>/);
   assert.match(article.html, /<h2>/);
   assert.ok(fs.existsSync(path.join(root, expected.route)), `Missing article route: ${expected.route}`);

@@ -60,7 +60,7 @@ widget.innerHTML = `
       <button type="button" data-assistant-advisor data-assistant-copy="advisor">Find my system</button>
       <a href="index.html#rebates" data-assistant-copy="rebates">Mass Save help</a>
       <a href="index.html#heat-pumps" data-assistant-copy="heatPump">Heat pump estimate</a>
-      <a href="index.html#book" data-assistant-copy="service">Request service</a>
+      <a href="https://ventic.34-41-157-23.nip.io/request?source=Website" data-assistant-copy="service">Request service</a>
       <a href="blog.html" data-assistant-copy="guides">HVAC guides</a>
       <a href="index.html#office" data-assistant-copy="office">Office map</a>
     </div>

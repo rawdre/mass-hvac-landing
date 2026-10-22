@@ -12,7 +12,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Get help when your AC is running but not cooling",
     "ctaText": "If you have completed the safe checks above and your home is still not cooling, Ventic HVAC can help identify the problem and explain the next step. Request an AC service appointment and include any photos or video that show what the system is doing.",
     "ctaButtonText": "Request AC Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": "<h1>AC Running but Not Cooling? What Massachusetts Homeowners Should Check</h1>\n<p>Your air conditioner is running, the thermostat is set to cool, and you can hear the system working, but the house still feels warm. This is one of the most common cooling problems homeowners experience, and it can have several causes. Some are simple enough to check safely. Others require an HVAC technician to diagnose before a small issue becomes a larger repair.</p>\n<p>If your AC is running but not cooling, use the steps below to gather useful information, protect the system, and decide when it is time to request service.</p>\n<h2>First, confirm what the system is actually doing</h2>\n<p>Before changing settings or opening equipment, spend a few minutes observing the system. These details can help narrow down the problem and give the technician a clearer starting point.</p>\n<h3>1. Check the thermostat</h3>\n<p>Make sure the thermostat is set to COOL and the temperature is set lower than the current room temperature. Set the fan to AUTO rather than ON. When the fan is left ON, it may continue blowing air even while the cooling cycle is not operating, which can make it seem like the AC is running without cooling.</p>\n<p>If the thermostat uses batteries, replace them if the display is dim, blank, or unreliable.</p>\n<h3>2. Feel the air coming from the vents</h3>\n<p>Check more than one supply vent. Ask yourself:</p>\n<ul>\n<li>Is air coming out of the vents?</li>\n<li>Does the air feel cool, room temperature, or warm?</li>\n<li>Is the airflow strong, weak, or almost absent?</li>\n<li>Are some rooms cooling while others stay warm?</li>\n</ul>\n<p>Weak airflow and warm airflow point to different possible problems, so this distinction matters.</p>\n<h3>3. Look at the outdoor unit</h3>\n<p>From a safe distance, check whether the outdoor unit appears to be running. You may hear the fan and compressor, and you should normally see the fan spinning during a cooling call. If the indoor blower is moving air but the outdoor unit is silent, the system may need professional service.</p>\n<p>Do not open panels, touch wiring, or try to restart electrical components yourself.</p>\n<h2>Safe checks you can do before requesting service</h2>\n<h3>Check the air filter</h3>\n<p>A clogged air filter can restrict airflow, reduce cooling performance, and contribute to coil icing. If the filter is visibly dirty, replace it with the correct size and type recommended for your system. After replacing it, give the system time to operate and see whether airflow improves.</p>\n<h3>Check supply and return vents</h3>\n<p>Make sure supply vents are open and not blocked by furniture, rugs, curtains, or boxes. Return-air grilles should also be clear. Closing too many vents does not usually save energy and may interfere with normal airflow.</p>\n<h3>Check the circuit breaker once</h3>\n<p>If you are comfortable checking the electrical panel, look for a tripped breaker labeled for the air conditioner, condenser, air handler, or furnace. If a breaker has tripped, reset it only once. If it trips again, leave it off and contact a qualified professional. Repeatedly resetting a breaker can be unsafe.</p>\n<h3>Look for ice or unusual water</h3>\n<p>Ice on the refrigerant lines or indoor coil area can be associated with restricted airflow, a dirty filter, a blower problem, or a refrigerant-related issue. If you see ice, turn cooling off and set the fan to ON only if it is operating normally. Do not chip or scrape the ice. Let the system thaw and request service.</p>\n<p>Water around the indoor equipment may indicate a condensate drainage problem or melting ice. If water is near electrical components or causing property damage, shut the system off and arrange service promptly.</p>\n<h2>Common reasons an AC runs but does not cool</h2>\n<p>A proper diagnosis requires inspection, but common causes include:</p>\n<ul>\n<li>A dirty or incorrectly sized air filter.</li>\n<li>Restricted airflow from blocked vents or a dirty coil.</li>\n<li>A thermostat setting, battery, or control problem.</li>\n<li>A failed capacitor, contactor, motor, or other electrical component.</li>\n<li>The outdoor unit not operating correctly.</li>\n<li>A frozen evaporator coil.</li>\n<li>A condensate safety switch interrupting cooling.</li>\n<li>Low refrigerant caused by a leak.</li>\n<li>A system that is struggling with its current condition, sizing, or load.</li>\n</ul>\n<p>Refrigerant does not get \"used up\" like fuel. If a system is low, a technician should determine why and explain the repair options rather than simply adding refrigerant without checking for the cause.</p>\n<h2>When should you turn the AC off?</h2>\n<p>Turn the system off and request professional help if you notice any of the following:</p>\n<ul>\n<li>A burning smell, smoke, sparking, or buzzing near electrical components.</li>\n<li>A breaker that trips again after one reset.</li>\n<li>Ice on the equipment or refrigerant line.</li>\n<li>Water leaking near electrical parts or causing damage.</li>\n<li>The outdoor unit is not operating while the indoor fan keeps running.</li>\n<li>Loud grinding, screeching, banging, or other new mechanical noises.</li>\n<li>The home remains uncomfortably warm despite basic checks.</li>\n</ul>\n<p>If you smell gas or suspect carbon monoxide, leave the area and contact the appropriate emergency service or utility. Do not stay inside to troubleshoot.</p>\n<h2>What information should you send before an HVAC visit?</h2>\n<p>A short video or a few clear photos can help the service team prepare. When possible, provide:</p>\n<ul>\n<li>A photo of the thermostat showing its current mode and temperature.</li>\n<li>A short video showing the airflow at a vent.</li>\n<li>A video of the outdoor unit while the thermostat is calling for cooling.</li>\n<li>A photo of any ice, water, warning message, or unusual condition.</li>\n<li>The equipment brand and model number if it is easy and safe to access.</li>\n<li>When the problem started and whether it happens continuously or intermittently.</li>\n</ul>\n<p>This information does not replace an on-site diagnosis, but it can make the first conversation more useful.</p>\n<h2>What happens during a professional AC diagnostic visit?</h2>\n<p>The technician will confirm the symptoms, inspect the system, test the relevant components, and identify the likely cause. The exact process depends on the equipment and what is found. After the inspection, the technician can explain the recommended next step and provide a written estimate for the applicable repair.</p>\n<p>Avoid accepting a guaranteed repair price based only on a short description. Different faults can create the same symptom, and the final recommendation should be based on the actual condition of the system.</p>\n<p><strong>Ventic HVAC serves homeowners in its Massachusetts service area. Appointment availability varies. An on-site inspection is required before a final repair recommendation or written estimate can be confirmed.</strong></p>\n"
   },
   {
@@ -218,7 +218,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Still have an HVAC question?",
     "ctaText": "Contact Ventic HVAC to tell us what is happening with your heating or cooling system. We can help determine the appropriate next step and schedule service when needed.",
     "ctaButtonText": "Request Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>HVAC Frequently Asked Questions</h1>
 <p>Get answers to common homeowner HVAC questions about air conditioning, heating, heat pumps, mini-splits, maintenance, installation planning, estimates, Mass Save rebate guidance, and emergency service.</p>
 <div class="faq-group">
@@ -371,7 +371,7 @@ window.HVAC_ARTICLES = [
   <h2>Appointments &amp; Estimates</h2>
   <details class="faq-item">
     <summary>Can I request an HVAC appointment online?</summary>
-    <p>Yes. You can submit a service request through the <a href="/#book">Ventic HVAC website</a> or contact Ventic HVAC directly to request an appointment.</p>
+    <p>Yes. You can submit a service request through the <a href="https://ventic.34-41-157-23.nip.io/request?source=Website">Ventic HVAC website</a> or contact Ventic HVAC directly to request an appointment.</p>
   </details>
   <details class="faq-item">
     <summary>Do you offer same-day HVAC service?</summary>
@@ -419,7 +419,7 @@ window.HVAC_ARTICLES = [
 <div class="article-bottom-cta faq-bottom-cta">
   <h2>Still have an HVAC question?</h2>
   <p>Contact Ventic HVAC to tell us what is happening with your heating or cooling system. We can help determine the appropriate next step and schedule service when needed.</p>
-  <a class="button primary" href="/#book">Request Service</a>
+  <a class="button primary" href="https://ventic.34-41-157-23.nip.io/request?source=Website">Request Service</a>
 </div>`
   },
   {
@@ -434,7 +434,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Get help with a heat pump that is not heating",
     "ctaText": "If your heat pump is not keeping the home comfortable after these safe checks, Ventic HVAC can inspect the system, identify the cause, and explain the next step.",
     "ctaButtonText": "Request Heat Pump Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>Heat Pump Not Heating? What Massachusetts Homeowners Should Check</h1>
 <p>A heat pump can run for a long time in cold weather, so it is not always obvious when there is a problem. The key question is whether the system is actually raising the indoor temperature and keeping the home comfortable. If it is running but the house stays cold, start with a few safe checks before requesting service.</p>
 <p>Do not open electrical panels, remove equipment covers, or attempt to add refrigerant. Heat pumps are complex systems, and a small symptom can have several possible causes.</p>
@@ -482,7 +482,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Get help when your furnace is running but the home is cold",
     "ctaText": "Ventic HVAC can inspect your heating system, identify why the home is not warming properly, and explain the recommended next step.",
     "ctaButtonText": "Request Heating Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>Why Is My Furnace Running but My House Is Still Cold?</h1>
 <p>If the furnace is running but the house is not reaching the thermostat setting, the problem is not always a complete system failure. It may be a setting, airflow restriction, distribution issue, or equipment condition that needs an on-site diagnosis.</p>
 <p>Begin with simple checks that are safe to perform. Avoid opening the furnace cabinet, bypassing safety switches, or repeatedly resetting a breaker.</p>
@@ -525,7 +525,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Concerned about your heat pump in cold weather?",
     "ctaText": "If ice is building up, defrost cycles seem constant, or the home is not staying warm, Ventic HVAC can inspect the system and identify the cause.",
     "ctaButtonText": "Request Heat Pump Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>Heat Pump Defrost Mode: What Is Normal and When to Call for Service</h1>
 <p>In cold, damp Massachusetts weather, frost can form on a heat pump&apos;s outdoor coil. That is why heat pumps use a defrost cycle. During defrost, the system temporarily changes how it operates to clear the frost and protect performance.</p>
 <p>Seeing steam or hearing a temporary change in the system does not automatically mean something is wrong. The important part is knowing what normal defrost looks like and when ice or performance problems need attention.</p>
@@ -572,7 +572,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Get help with a heating system that keeps cycling",
     "ctaText": "Ventic HVAC can inspect the heating system, identify why it is cycling, and explain the appropriate repair or maintenance recommendation.",
     "ctaButtonText": "Request Heating Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>Why Is My Heating System Short Cycling?</h1>
 <p>Short cycling means a heating system starts, runs for a short time, shuts off, and then starts again sooner than expected. It can make the home less comfortable, increase wear on equipment, and sometimes point to an issue that should be inspected.</p>
 <h2>What can you check safely?</h2>
@@ -598,7 +598,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Get help with rooms that stay cold",
     "ctaText": "Ventic HVAC can evaluate heating performance, airflow, and comfort concerns to identify the most useful next step.",
     "ctaButtonText": "Request a Comfort Review",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>Uneven Heating: Why Some Rooms Stay Cold</h1>
 <p>If the thermostat says the home is warm but a bedroom, addition, basement, or upstairs area stays cold, the issue may be more than the thermostat setting. Uneven heating can come from airflow, ductwork, insulation, equipment performance, or the layout of the home.</p>
 <h2>Start by noticing the pattern</h2>
@@ -629,7 +629,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Need help with a thermostat or HVAC response problem?",
     "ctaText": "Ventic HVAC can determine whether the issue is the thermostat, system controls, or another HVAC condition that needs service.",
     "ctaButtonText": "Request HVAC Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>What to Do When Your Thermostat Is Not Working</h1>
 <p>A blank display, incorrect temperature reading, or HVAC system that will not respond can make it seem like the equipment has failed. Sometimes the thermostat is the issue; other times it is only the place where a larger heating or cooling problem becomes visible.</p>
 <h2>Check the basic settings first</h2>
@@ -660,7 +660,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Keep your HVAC system maintained",
     "ctaText": "If your system is running longer, airflow is weak, or the home is less comfortable, Ventic HVAC can help determine whether maintenance or repair is the right next step.",
     "ctaButtonText": "Request Maintenance",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>How Often Should You Change Your HVAC Filter?</h1>
 <p>There is no one replacement schedule that fits every home. Filter type, system use, pets, occupants, allergies, construction dust, and outdoor conditions can all change how quickly a filter loads up.</p>
 <h2>A practical way to check</h2>
@@ -685,7 +685,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Plan a rebate-ready heat pump project",
     "ctaText": "Ventic HVAC can help you understand project requirements and prepare a heat pump plan that supports an informed rebate application. Final eligibility is determined by Mass Save.",
     "ctaButtonText": "Request a Heat Pump Consultation",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>2026 Mass Save Heat Pump Rebates: What to Prepare Before You Apply</h1>
 <p>Mass Save incentives can be an important part of a Massachusetts heat pump project, but the right time to think about them is before equipment is selected and installed. Eligibility, equipment requirements, contractor participation, and documentation can affect the application.</p>
 <p>This is a planning checklist, not a guarantee of rebate approval. Always confirm current requirements directly with <a href="https://www.masssave.com/residential/rebates-offers-services/heating-and-cooling/heat-pumps/air-source-heat-pumps" target="_blank" rel="noopener noreferrer">Mass Save&apos;s current heat pump guidance</a>.</p>
@@ -718,7 +718,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Schedule a heating-system check",
     "ctaText": "Ventic HVAC can inspect active heating concerns and help homeowners understand the appropriate next step before cold-weather problems become larger issues.",
     "ctaButtonText": "Request Heating Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>Massachusetts Heating Safety Checklist for Homeowners</h1>
 <p>Heating season is the right time to review a few basic safety practices. This checklist is not a substitute for professional service or emergency response, but it can help you recognize concerns early and act appropriately.</p>
 <h2>Keep smoke and carbon monoxide alarms working</h2>
@@ -744,7 +744,7 @@ window.HVAC_ARTICLES = [
     "ctaTitle": "Get help with a noisy HVAC system",
     "ctaText": "Ventic HVAC can inspect new or worsening HVAC noises, identify the likely cause, and explain the recommended next step.",
     "ctaButtonText": "Request HVAC Service",
-    "ctaLink": "/#book",
+    "ctaLink": "https://ventic.34-41-157-23.nip.io/request?source=Website",
     "html": `<h1>Why Is My HVAC System Making a Loud Noise?</h1>
 <p>HVAC equipment makes normal operating sounds, but a new, loud, or worsening noise can be a sign that the system needs attention. The sound alone does not confirm the cause, but the pattern can help a technician diagnose the issue more efficiently.</p>
 <h2>What to observe safely</h2>
