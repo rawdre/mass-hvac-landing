@@ -27,7 +27,7 @@
 
   function revealOnScroll() {
     const targets = document.querySelectorAll(
-      ".v2 .section-heading, .v2 .service-grid article, .v2 .split-section > *, .v2 .system-grid article, .v2 .fleet-inner > *, .v2 .plan-row span, .v2 .booking > *, .v2 .office-section > *, .v2 .blog-preview-grid a"
+      ".v2 .section-heading, .v2 .service-grid article, .v2 .split-section > *, .v2 .system-grid article, .v2 .fleet-inner > *, .v2 .plan-row span, .v2 .booking > *, .v2 .office-section > *, .v2 .blog-preview-grid a, .v2 .blog-card, .v2 .article-banner"
     );
     if (reduceMotion || !("IntersectionObserver" in window)) return;
     const observer = new IntersectionObserver(

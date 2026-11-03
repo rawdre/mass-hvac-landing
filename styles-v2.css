@@ -881,7 +881,38 @@ body.v2::after {
   box-shadow: var(--v-shadow-soft);
 }
 
+.v2 .fine-print {
+  color: var(--v-ink) !important;
+  background: var(--v-paper);
+  border-left: 4px solid var(--v-orange);
+  border-radius: var(--v-radius-sm);
+}
+
+.v2 .fine-print a {
+  color: var(--v-blue);
+  text-decoration: underline;
+}
+
+:root[data-theme="dark"] .v2 .fine-print a {
+  color: var(--v-sky);
+}
+
 /* ---------- Office ---------- */
+.v2 .map-fallback {
+  color: var(--v-ink);
+  background: var(--v-card);
+  border: 1px solid var(--v-line);
+  border-radius: var(--v-radius-sm);
+}
+
+.v2 .map-fallback strong {
+  color: var(--v-ink);
+}
+
+.v2 .map-fallback p {
+  color: var(--v-muted);
+}
+
 .v2 .office-section {
   padding: var(--v-section) var(--v-gutter) 0;
   background: none;

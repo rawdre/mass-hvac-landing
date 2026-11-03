@@ -2,6 +2,16 @@
 
 This file records production releases for the public Ventic HVAC website. Every release is also marked with a matching Git tag, allowing a safe rollback to a known version.
 
+## v2.1.0 - 2026-11-03
+
+- Redesigned the HVAC Learning Center to match the v2 homepage: photo hero, featured article, topic filter chips (Heat Pumps, Mini-Splits, Heating, Cooling, Maintenance, Rebates & Costs, FAQ), and photo cards for all 31 articles.
+- Article pages: editorial headline, read-time line, topic photo banner, comfortable reading typography, and a navy sticky call-to-action card (moves below the article on phones).
+- Added eight more Higgsfield (GPT Image 2.5) topic photos; `topics.js` maps article categories to topics and photos so cards and banners always match.
+- New `styles-v2-learn.css` for blog, article, privacy, and terms pages; Privacy Policy and Terms of Service moved onto the v2 design.
+- Fixed dark mode: unreadable blog cards, Privacy/Terms pages, homepage booking fine print, and map card (legacy white/pink surfaces with light text).
+- Replaced the blog hero sentence that exposed an internal SEO note with homeowner-facing copy (EN/ES/PT).
+- Visible site version shown in the footer of all redesigned pages.
+
 ## v2.0.0 - 2026-11-03
 
 - Redesigned the homepage ("New England editorial" direction): full-bleed hero with a Higgsfield Seedance 2.5 video loop and a blue-hour Ventic van photo fallback, serif display typography (self-hosted Fraunces + Inter), and the van livery's blue and orange as brand accents.

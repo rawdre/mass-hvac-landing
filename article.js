@@ -1,3 +1,37 @@
+const WORDS_PER_MINUTE = 220;
+
+/** Base URL of the site assets, derived from where article.js itself was loaded. */
+function assetBase() {
+  const script = document.querySelector('script[src*="article.js"]');
+  return script ? new URL("assets/v2/", script.src).href : "assets/v2/";
+}
+
+/** v2 only: photo banner after the H1 plus an estimated read time. */
+function decorateArticle(readerNode, item) {
+  if (!document.body.classList.contains("v2") || !window.VENTIC_TOPICS) return;
+  const heading = readerNode.querySelector("h1");
+  if (!heading) return;
+  const image = window.VENTIC_TOPICS.imageFor(item, window.HVAC_ARTICLES);
+  const words = readerNode.textContent.trim().split(/\s+/).length;
+  const minutes = Math.max(1, Math.round(words / WORDS_PER_MINUTE));
+
+  const meta = document.createElement("p");
+  meta.className = "article-meta";
+  meta.textContent = `${minutes} min read · Ventic HVAC Learning Center`;
+
+  const figure = document.createElement("figure");
+  figure.className = "article-banner";
+  const img = document.createElement("img");
+  img.src = `${assetBase()}${image}.webp`;
+  img.alt = "";
+  img.width = 1200;
+  img.height = 900;
+  img.decoding = "async";
+  figure.appendChild(img);
+
+  heading.after(meta, figure);
+}
+
 const params = new URLSearchParams(window.location.search);
 const routeSlug = document.body?.dataset.articleSlug || "";
 const querySlug = params.get("slug") || "";
@@ -23,6 +57,7 @@ if (reader && article) {
     <span class="result-label">${article.category}</span>
     ${article.html}
   `;
+  decorateArticle(reader, article);
 
   if (ctaPanel) {
     const ctaTitle = ctaPanel.querySelector("[data-article-cta-title]");
