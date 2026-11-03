@@ -6,7 +6,7 @@
 - Production site: `https://ventichvac.com/`
 - Production branch: `main`
 - Hosting: GitHub Pages, deploying from the repository root on `main`
-- Current release: `v1.2.0`
+- Current release: `v2.0.0`
 
 ## Important Files
 

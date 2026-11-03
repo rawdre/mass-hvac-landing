@@ -34,8 +34,10 @@
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" href="assets/ventic-mark-512.png" sizes="512x512">
     <link rel="apple-touch-icon" href="assets/ventic-mark-512.png">
-    <link rel="preload" as="image" href="assets/heat-pump-hero.webp" type="image/webp" fetchpriority="high">
+    <link rel="preload" as="image" href="assets/v2/hero-van-dusk.webp" type="image/webp" fetchpriority="high">
+    <link rel="preload" as="font" href="assets/fonts/fraunces-var.woff2" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-v2.css">
 
     <script type="application/ld+json">
     {
@@ -85,7 +87,7 @@
     }
     </script>
   </head>
-  <body>
+  <body class="v2">
     <div class="urgency-bar">
       <strong data-i18n="urgencyTitle">No Heat or AC?</strong>
       <span data-i18n="urgencyText">Same-day repair windows may be available today.</span>
@@ -117,28 +119,41 @@
     </header>
 
     <main id="top">
-      <section class="hero">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-backdrop" aria-hidden="true">
+          <picture>
+            <source srcset="assets/v2/hero-van-dusk.webp" type="image/webp">
+            <img src="assets/v2/hero-van-dusk.jpg" alt="" width="1920" height="1080" fetchpriority="high" decoding="async">
+          </picture>
+          <video class="hero-video" data-hero-video muted loop playsinline preload="none" poster="assets/v2/hero-van-dusk.webp">
+            <source src="assets/v2/hero-loop.mp4" type="video/mp4">
+          </video>
+        </div>
         <div class="hero-copy">
-          <h1 data-i18n="heroTitle">Residential HVAC & Heat Pump Installation in Massachusetts</h1>
+          <span class="eyebrow" data-i18n="v2HeroEyebrow">Marlborough · MetroWest · Central Massachusetts</span>
+          <h1 id="hero-heading" data-i18n="heroTitle">Residential HVAC & Heat Pump Installation in Massachusetts</h1>
           <p data-i18n="heroText">Cleaner comfort for Massachusetts homes. Heat pumps, mini-splits, AC repair, heating repair, emergency calls, maintenance plans, and Mass Save rebate guidance.</p>
           <div class="hero-actions">
             <button class="button primary" type="button" data-open-advisor data-i18n="freeDirection">Get My Free HVAC Direction</button>
-            <a class="button secondary" href="#heat-pumps" data-i18n="heatPumpEstimate">Get Heat Pump Estimate</a>
-          </div>
-          <div class="trust-badges" aria-label="Trust points">
-            <span data-i18n="trustEpa">EPA 608 Ready</span>
-            <span data-i18n="trustLicensed">Licensed & Insured Verification</span>
-            <span data-i18n="trustEstimates">Written Estimates</span>
-            <span data-i18n="trustMassSave">Mass Save Guidance</span>
+            <a class="button ghost" href="#heat-pumps" data-i18n="heatPumpEstimate">Get Heat Pump Estimate</a>
           </div>
         </div>
-        <figure class="hero-media">
-          <picture>
-            <source srcset="assets/heat-pump-hero.webp" type="image/webp">
-            <img src="assets/heat-pump-hero.png" alt="HVAC technician beside a residential heat pump at a clean Massachusetts home" width="1280" height="960" fetchpriority="high" decoding="async">
-          </picture>
-        </figure>
+        <aside class="hero-card" aria-label="Same-day service">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <div>
+            <strong data-i18n="urgencyTitle">No Heat or AC?</strong>
+            <span data-i18n="urgencyText">Same-day repair windows may be available today.</span>
+          </div>
+          <a href="tel:+19789179397">(978) 917-9397</a>
+        </aside>
       </section>
+
+      <div class="trust-rail" aria-label="Trust points">
+        <span data-i18n="trustEpa">EPA 608 Ready</span>
+        <span data-i18n="trustLicensed">Licensed & Insured Verification</span>
+        <span data-i18n="trustEstimates">Written Estimates</span>
+        <span data-i18n="trustMassSave">Mass Save Guidance</span>
+      </div>
 
       <section class="emergency-strip" id="emergency">
         <div>
@@ -166,12 +181,14 @@
             </div>
           </div>
           <figure class="fleet-media">
-            <img src="assets/ventic-van.png" alt="Ventic HVAC service van" width="1336" height="992" loading="lazy" decoding="async">
+            <img class="fleet-photo" src="assets/v2/tech-door.webp" alt="Ventic HVAC technician greeting a homeowner, service van at the curb" width="1200" height="900" loading="lazy" decoding="async">
+            <img class="fleet-van" src="assets/ventic-van.png" alt="" width="1336" height="992" loading="lazy" decoding="async">
           </figure>
         </div>
       </section>
 
       <section class="advisor-section" id="advisor">
+        <div class="advisor-bg" aria-hidden="true"><img src="assets/v2/home-comfort.webp" alt="" width="1920" height="1080" loading="lazy" decoding="async"></div>
         <div class="advisor-intro">
           <div>
             <h2 data-i18n="advisorTitle">Know your likely HVAC path before the sales visit.</h2>
@@ -389,33 +406,39 @@
           <h2 data-i18n="servicesTitle">Emergency AC Repair in Marlborough, MA and Central Massachusetts</h2>
           <p data-i18n="servicesText">Repair-first diagnostics, clean installation standards, and heat pump planning for old homes, tight lots, cold winters, and rebate paperwork.</p>
         </div>
-        <div class="service-grid">
+        <div class="service-grid bento">
           <article>
+            <figure class="service-media"><img src="assets/v2/svc-heat-pump.webp" alt="Technician checking a new cold-climate heat pump beside a Massachusetts home" width="1200" height="900" loading="lazy" decoding="async"></figure>
             <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="12" cy="12" r="4.2"/><path d="M12 12l2.6-2.6"/><path d="M6 7.5h2"/></svg></span>
             <h3 data-i18n="serviceHeatPumps">Heat Pumps</h3>
             <p data-i18n="serviceHeatPumpsText">Cold-climate system design, replacement planning, financing options, and rebate guidance.</p>
           </article>
           <article>
+            <figure class="service-media"><img src="assets/v2/svc-mini-split.webp" alt="Ductless mini-split mounted in a restored Massachusetts living room" width="1200" height="900" loading="lazy" decoding="async"></figure>
             <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="5.5" rx="2.75"/><path d="M6.5 9h6"/><path d="M6.5 16c1.3-1.3 2.3-1.3 3.6 0"/><path d="M10.5 17.6c1.3-1.3 2.3-1.3 3.6 0"/><path d="M14.4 15c1.3-1.3 2.3-1.3 3.6 0"/></svg></span>
             <h3 data-i18n="serviceMiniSplits">Mini-Splits</h3>
             <p data-i18n="serviceMiniSplitsText">Ductless comfort for bedrooms, additions, offices, basements, and older homes.</p>
           </article>
           <article>
+            <figure class="service-media"><img src="assets/v2/svc-ac-repair.webp" alt="Technician connecting refrigerant gauges to an air-conditioning condenser" width="1200" height="900" loading="lazy" decoding="async"></figure>
             <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M3.8 7L20.2 17"/><path d="M20.2 7L3.8 17"/><path d="M12 5.4l2.4 1.4M12 5.4L9.6 6.8"/><path d="M12 18.6l2.4-1.4M12 18.6l-2.4-1.4"/><path d="M4.6 11.2l.2 2.7M19.4 11.2l-.2 2.7"/></svg></span>
             <h3 data-i18n="serviceAcRepair">AC Repair</h3>
             <p data-i18n="serviceAcRepairText">Diagnostics for airflow, electrical, refrigerant, thermostat, and performance issues.</p>
           </article>
           <article>
+            <figure class="service-media"><img src="assets/v2/svc-heating.webp" alt="Technician inspecting a high-efficiency furnace" width="1200" height="900" loading="lazy" decoding="async"></figure>
             <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a6 6 0 0 0 6-6c0-4.2-3-5.6-4.2-9.4-3 1.8-4.3 4.2-4.3 6.4-1.2 0-2.2-1-2.4-2.4C5.6 12.4 6 14 6 16a6 6 0 0 0 6 6z"/></svg></span>
             <h3 data-i18n="serviceHeatingRepair">Heating Repair</h3>
             <p data-i18n="serviceHeatingRepairText">No-heat troubleshooting and licensed trade coordination when the scope requires it.</p>
           </article>
           <article>
+            <figure class="service-media"><img src="assets/v2/svc-emergency.webp" alt="Ventic HVAC van arriving at a snowy home at night" width="1200" height="900" loading="lazy" decoding="async"></figure>
             <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5L21 19H3z"/><path d="M12 10v4"/><path d="M12 17h.01"/></svg></span>
             <h3 data-i18n="serviceEmergency">Emergency HVAC</h3>
             <p data-i18n="serviceEmergencyText">Urgent triage for breakdowns during cold snaps, heat waves, and system failures.</p>
           </article>
           <article>
+            <figure class="service-media"><img src="assets/v2/svc-maintenance.webp" alt="Technician replacing a furnace air filter during a tune-up" width="1200" height="900" loading="lazy" decoding="async"></figure>
             <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9.5h18"/><path d="M8 3v3.5M16 3v3.5"/><path d="M8.5 15l2.5 2.5 4.5-4.5"/></svg></span>
             <h3 data-i18n="serviceMaintenance">Maintenance Plans</h3>
             <p data-i18n="serviceMaintenanceText">Seasonal tune-ups, priority scheduling, filter reminders, and documented system checks.</p>
@@ -424,7 +447,8 @@
       </section>
 
       <section class="split-section" id="heat-pumps">
-        <div>
+        <figure class="split-media"><img src="assets/v2/heatpump-snow.webp" alt="Cold-climate heat pump running in a snowy Massachusetts backyard" width="1200" height="1500" loading="lazy" decoding="async"></figure>
+        <div class="split-copy">
           <h2 data-i18n="heatPumpTitle">Heat pump upgrades without rebate confusion.</h2>
           <p data-i18n="heatPumpText">Massachusetts heat pump projects need more than a quick equipment quote. The right plan checks sizing, existing fuel, integrated controls, outdoor placement, electrical scope, and current rebate rules before installation starts.</p>
           <ul class="check-list">
@@ -571,9 +595,11 @@
         <a href="terms.html" data-i18n="termsOfService">Terms of Service</a>
       </p>
       <p data-i18n="footerCompliance">Compliance note: license, insurance, registration, permit, and Mass Save language must be verified before public launch. Ventic HVAC is not Mass Save and cannot guarantee rebate approval.</p>
+      <p class="footer-version">Site version v2.0.0</p>
     </footer>
     <script src="site-ui.js"></script>
     <script src="script.js"></script>
     <script src="assistant-widget.js"></script>
+    <script src="v2.js"></script>
   </body>
 </html>
