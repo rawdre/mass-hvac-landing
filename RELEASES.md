@@ -2,6 +2,10 @@
 
 This file records production releases for the public Ventic HVAC website. Every release is also marked with a matching Git tag, allowing a safe rollback to a known version.
 
+## v2.1.1 - 2026-11-18
+
+- Privacy Policy: added section 5 "Email Marketing" (optional unchecked opt-in, unsubscribe, consent records); later sections renumbered 6-15; "Last updated" date added.
+
 ## v2.1.0 - 2026-11-03
 
 - Redesigned the HVAC Learning Center to match the v2 homepage: photo hero, featured article, topic filter chips (Heat Pumps, Mini-Splits, Heating, Cooling, Maintenance, Rebates & Costs, FAQ), and photo cards for all 31 articles.
