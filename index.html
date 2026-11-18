@@ -6,7 +6,7 @@
     <!-- Security: CSP is the only HTTP-header-level control GitHub Pages allows (via meta).
          frame-ancestors / X-Frame-Options / X-Content-Type-Options / Permissions-Policy
          cannot be set on GitHub Pages and require a proxy (e.g. Cloudflare) or Vercel. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.web3forms.com; frame-src https://www.google.com https://maps.google.com; form-action 'self'; upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.web3forms.com https://ventic.34-41-157-23.nip.io; frame-src https://www.google.com https://maps.google.com; form-action 'self'; upgrade-insecure-requests">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>Ventic HVAC | Massachusetts HVAC, Heat Pumps & Emergency Repair</title>
     <meta name="description" content="Residential HVAC and heat pump installation for Marlborough, MetroWest, and Central Massachusetts. Mini-splits, AC repair, heating repair, emergency HVAC, maintenance plans, and Mass Save rebate guidance.">
@@ -579,6 +579,26 @@
       </section>
     </main>
 
+    <section class="vn-newsletter" aria-labelledby="vn-newsletter-title">
+      <div class="vn-newsletter-inner">
+        <div class="vn-newsletter-copy">
+          <span class="vn-eyebrow">Stay comfortable all year</span>
+          <h2 id="vn-newsletter-title">Join our<br><em>newsletter.</em></h2>
+          <p>Enter your email for seasonal HVAC tips, maintenance reminders, special offers, and rebate updates for Massachusetts homes.</p>
+        </div>
+        <form id="vn-newsletter-form" novalidate>
+          <label for="vn-newsletter-email">Email address</label>
+          <div class="vn-newsletter-row">
+            <input id="vn-newsletter-email" name="email" type="email" autocomplete="email" placeholder="Your email address" maxlength="254" required>
+            <button class="vn-newsletter-btn" type="submit">Join our newsletter <span aria-hidden="true">&#8599;</span></button>
+          </div>
+          <label class="vn-newsletter-consent"><input name="consent" type="checkbox" required><span id="vn-newsletter-consent-text">I agree to receive promotional emails from Ventic HVAC LLC about HVAC services, maintenance plans, seasonal offers, and rebates. I can unsubscribe at any time.</span></label>
+          <div class="vn-newsletter-trap" aria-hidden="true"><label>Leave this empty<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+          <p class="vn-newsletter-status" id="vn-newsletter-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
     <footer class="site-footer">
       <p><strong>Ventic HVAC</strong> - <span data-i18n="footerMain">Heat pumps, mini-splits, AC repair, heating repair, emergency HVAC, and maintenance for Massachusetts homes.</span></p>
       <p class="footer-contact">
@@ -595,11 +615,12 @@
         <a href="terms.html" data-i18n="termsOfService">Terms of Service</a>
       </p>
       <p data-i18n="footerCompliance">Compliance note: license, insurance, registration, permit, and Mass Save language must be verified before public launch. Ventic HVAC is not Mass Save and cannot guarantee rebate approval.</p>
-      <p class="footer-version">Site version v2.1.1</p>
+      <p class="footer-version">Site version v2.2.0</p>
     </footer>
     <script src="site-ui.js"></script>
     <script src="script.js"></script>
     <script src="assistant-widget.js"></script>
     <script src="v2.js"></script>
+    <script src="newsletter.js"></script>
   </body>
 </html>

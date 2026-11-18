@@ -1213,3 +1213,25 @@ body.v2::after {
     transition: none;
   }
 }
+
+/* ---------- Newsletter signup (v2.2.0) ---------- */
+.vn-newsletter { background: var(--v-paper); color: var(--v-ink); padding: clamp(48px, 7vw, 88px) var(--v-gutter); border-top: 1px solid var(--v-line); }
+.vn-newsletter-inner { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.15fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
+.vn-newsletter .vn-eyebrow { color: var(--v-orange); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.vn-newsletter h2 { font-family: var(--v-font-display); font-size: clamp(32px, 3.6vw, 52px); line-height: 1.07; margin: 14px 0 18px; color: var(--v-ink); }
+.vn-newsletter h2 em { color: var(--v-orange); font-style: normal; }
+.vn-newsletter-copy p { font-size: 17px; line-height: 1.7; max-width: 480px; margin: 0; color: var(--v-muted); }
+.vn-newsletter form > label { display: block; font-size: 15px; font-weight: 600; margin: 0 0 10px; }
+.vn-newsletter-row { display: flex; gap: 12px; }
+.vn-newsletter input[type=email] { box-sizing: border-box; min-width: 0; flex: 1; height: 56px; padding: 0 16px; font: inherit; font-size: 16px; color: var(--v-ink); background: var(--v-card); border: 1px solid var(--v-line); border-radius: var(--v-radius-sm); }
+.vn-newsletter .vn-newsletter-btn { min-height: 56px; padding: 0 22px; border: 0; border-radius: var(--v-radius-sm); background: var(--v-navy); color: var(--v-on-dark); font: inherit; font-size: 15px; font-weight: 700; white-space: nowrap; cursor: pointer; }
+.vn-newsletter .vn-newsletter-btn:hover { background: var(--v-orange); }
+.vn-newsletter .vn-newsletter-btn:disabled { opacity: .65; cursor: wait; }
+.vn-newsletter input:focus-visible, .vn-newsletter button:focus-visible { outline: 3px solid var(--v-orange); outline-offset: 3px; }
+.vn-newsletter .vn-newsletter-consent { display: flex; align-items: flex-start; gap: 12px; margin: 18px 0 0; font-size: 14px; line-height: 1.6; font-weight: 400; color: var(--v-muted); cursor: pointer; }
+.vn-newsletter-consent input { width: 20px; height: 20px; flex: 0 0 20px; margin: 2px 0 0; accent-color: var(--v-orange); }
+.vn-newsletter-status { min-height: 23px; margin: 12px 0 0; font-size: 15px; }
+.vn-newsletter-trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+:root[data-theme="dark"] .vn-newsletter .vn-newsletter-btn { background: var(--v-orange); color: #fff; }
+@media (max-width: 900px) { .vn-newsletter-inner { grid-template-columns: 1fr; } }
+@media (max-width: 540px) { .vn-newsletter-row { flex-direction: column; } .vn-newsletter .vn-newsletter-btn { width: 100%; } }
