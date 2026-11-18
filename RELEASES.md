@@ -2,9 +2,9 @@
 
 This file records production releases for the public Ventic HVAC website. Every release is also marked with a matching Git tag, allowing a safe rollback to a known version.
 
-## v2.2.0 - unreleased (waiting on newsletter endpoint)
+## v2.2.0 - 2026-11-18
 
-- Homepage: "Join our newsletter" signup above the footer, matching comeketocatering.com (email + optional consent checkbox + honeypot). Posts JSON to `https://ventic.34-41-157-23.nip.io/api/public/newsletter` (`newsletter.js`); CSP connect-src updated. Light and dark mode styled in `styles-v2.css`.
+- Homepage: "Join our newsletter" signup above the footer, matching comeketocatering.com (email + optional consent checkbox + honeypot). Signups + consent records (time, page, consent text) saved via Supabase RPC `ventic_email_optin` into `ventic_email_consents` (insert-only for the public key); CSP connect-src updated. Light and dark mode styled in `styles-v2.css`.
 
 ## v2.1.1 - 2026-11-18
 
